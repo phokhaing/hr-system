@@ -1,0 +1,37 @@
+version: "3.8"
+services:
+    app:
+        build: .
+        image: hr_system_app
+        container_name: app
+        ports:
+            - "80:80" # "local_port:default_image_port"
+        volumes:
+            - .:/var/www/html/ #current_dir:default_image_dir
+        links:
+            - db
+        depends_on:
+            - db
+    db:
+        image: mysql
+        container_name: db
+        restart: always
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_DATABASE: hr_system_db
+            MYSQL_ALLOW_EMPTY_PASSWORD: 1
+            # MYSQL_USER: root
+            # MYSQL_PASSWORD: root
+            MYSQL_ROOT_PASSWORD: ""
+        volumes:
+            - ./db_data:/var/lib/mysql
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        ports:
+            - "8080:80"
+        restart: always
+        environment:
+            PMA_HOST: db
+        depends_on:
+            - db
