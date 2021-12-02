@@ -1,0 +1,16 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/unity.js": "/js/unity.js",
+    "/js/staff_resign/index.js": "/js/staff_resign/index.js",
+    "/js/staff_resign/create.js": "/js/staff_resign/create.js",
+    "/js/staff_movement/index.js": "/js/staff_movement/index.js",
+    "/js/staff_movement/create.js": "/js/staff_movement/create.js",
+    "/js/staff/index.js": "/js/staff/index.js",
+    "/js/reports/staff_profile/index.js": "/js/reports/staff_profile/index.js",
+    "/css/bootstrap.css": "/css/bootstrap.css",
+    "/css/font-awesome.css": "/css/font-awesome.css",
+    "/css/ionicons.css": "/css/ionicons.css",
+    "/css/AdminLTE.css": "/css/AdminLTE.css",
+    "/css/sweetalert2.css": "/css/sweetalert2.css"
+}

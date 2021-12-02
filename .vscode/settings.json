@@ -1,0 +1,9 @@
+{
+    "git.ignoreLimitWarning": true,
+    "vetur.format.options.tabSize": 4,
+    "prettier.tabWidth": 4,
+    "debug.javascript.defaultRuntimeExecutable": {
+    
+        "pwa-node": "node"
+    }
+}

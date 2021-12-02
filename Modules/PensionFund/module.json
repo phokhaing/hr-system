@@ -1,0 +1,13 @@
+{
+    "name": "PensionFund",
+    "alias": "pensionfund",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\PensionFund\\Providers\\PensionFundServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

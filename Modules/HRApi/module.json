@@ -1,0 +1,13 @@
+{
+    "name": "HRApi",
+    "alias": "hrapi",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\HRApi\\Providers\\HRApiServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

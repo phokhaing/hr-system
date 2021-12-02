@@ -1,0 +1,13 @@
+{
+    "name": "HRTraining",
+    "alias": "hrtraining",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\HRTraining\\Providers\\HRTrainingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

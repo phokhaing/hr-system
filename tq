@@ -1,0 +1,4530 @@
+[33mcommit 4801bab1c5cf6a88d4c38958c4d13041abf3d9a0[m[33m ([m[1;36mHEAD -> [m[1;32mtesting[m[33m)[m
+Merge: 7e2a028e 6417706e
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Wed Dec 23 22:38:33 2020 +0700
+
+    Merge branch 'payroll_module' into testing
+    
+    # Conflicts:
+    #       config/adminlte.php
+    #       config/constant.php
+    #       public/js/app.js
+    #       public/js/reports/staff_profile/index.js
+    #       public/js/staff/index.js
+    #       public/js/staff_movement/create.js
+    #       public/js/staff_movement/index.js
+    #       public/js/staff_resign/create.js
+    #       public/js/staff_resign/index.js
+    #       public/js/unity.js
+
+[33mcommit 7e2a028ed9340dca32626fccc22ab953e8c1513e[m[33m ([m[1;31morigin/testing[m[33m)[m
+Merge: 416bad8e d8b83d15
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Wed Dec 23 22:23:17 2020 +0700
+
+    Merge branch 'master' into testing
+
+[33mcommit 6417706e4b77f1af6586913862f6f8d2d4e4bee3[m[33m ([m[1;31morigin/payroll_module[m[33m, [m[1;32mpayroll_module[m[33m)[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Wed Dec 23 08:24:29 2020 +0700
+
+    [TASK]
+    - Change interface view checking report
+    - Export checking report to excel and improved on filter report
+    - Export report half month payroll and improved on filter report
+
+[33mcommit d8b83d151dbb17143e32694cbb60081cccf3d082[m[33m ([m[1;33mtag: v5.0.0[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31mlive/master[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 0cef0ea5 00bc9dcc
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Mon Dec 21 16:14:55 2020 +0700
+
+    Merge branch 'training_module'
+    
+    - Merge training module into production and resoled conflig.
+
+[33mcommit 4297328d80566325cc522b3ed5b61c879021fa9b[m
+Merge: 73a4b7d6 eab407c0
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Mon Dec 21 14:01:36 2020 +0700
+
+    Merge branch 'fix_filter_contract' into payroll_module
+
+[33mcommit 0cef0ea539e82cabba11994feda02e192c4b83d0[m
+Merge: 66180649 eab407c0
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Mon Dec 21 13:52:31 2020 +0700
+
+    Merge branch 'fix_filter_contract'
+
+[33mcommit eab407c02d643f6bb14d3da64d7e93c7ce1b6b5a[m[33m ([m[1;31morigin/LIVE[m[33m, [m[1;32mfix_filter_contract[m[33m, [m[1;32mLIVE[m[33m)[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Mon Dec 21 13:48:10 2020 +0700
+
+    [BUG] Join wrong relationship in contract with staff_personal_info
+
+[33mcommit 73a4b7d6f04d6a0a018bffb5f7231d82253469c0[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Thu Dec 17 18:03:28 2020 +0700
+
+    #36-ធ្វើបច្ចុប្បន្នភាពប្រព័ន្ធ HR បន្ថែម Report Payroll Checking (Half Month) មុគ្គលិកទាំងអស់មុនពេល Post ចូលទិន្នន័យ Payroll (ដើម្បីរក្សាទុក)
+
+[33mcommit 27e1b2783173d49d55d8684765bd536a73cf8e6a[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Thu Dec 17 11:02:22 2020 +0700
+
+    - #35-ធ្វើបច្ចុប្បន្នភាពប្រព័ន្ធ HR បន្ថែមមុខងារគណនាប្រាក់ខែ Half Month
+      (យោងលើរយៈពេលដែលបុគ្គលិកចូលបម្រើការងារពេញខែ ឬមិនពេញខែ)
+
+[33mcommit 6618064958f53ea86778a8734ed4f48b5b852783[m[33m ([m[1;33mtag: v4.0.11[m[33m)[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Mon Dec 14 13:32:08 2020 +0700
+
+    [IMP] Modify readme
+
+[33mcommit 416bad8ee8ed8e1884e2fed11207501735e78934[m[33m ([m[1;31mtesting/testing[m[33m)[m
+Merge: 14010f83 1b0d00b7
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Mon Dec 14 11:29:13 2020 +0700
+
+    Merge branch 'fix_api' into testing
+
+[33mcommit 1b0d00b7472a3a90b2ed9c1837d83f7d0a107b0f[m[33m ([m[1;31morigin/fix_api[m[33m, [m[1;32mfix_api[m[33m)[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Mon Dec 14 11:27:39 2020 +0700
+
+    readme
+
+[33mcommit 14010f830e8a22bdcdc17bde06adae2c458cc321[m
+Merge: 0a080380 64506135
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Mon Dec 14 09:59:52 2020 +0700
+
+    Merge branch 'fix_api' into testing
+
+[33mcommit 64506135476584fbf84e3bebedf34a490cc243ea[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Mon Dec 14 09:53:46 2020 +0700
+
+    [IMP] Add new field to respone api.
+
+[33mcommit 0a08038001f44221c35fc65b1ef73b1a2010664c[m
+Merge: 00bc9dcc cc192a29
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Tue Dec 8 14:54:52 2020 +0700
+
+    Merge branch 'master' into testing
+
+[33mcommit 00bc9dcc2b5a3c4bc3063b0d2ea3abdff0b7723e[m[33m ([m[1;31morigin/veyo[m[33m, [m[1;31morigin/training_module[m[33m, [m[1;31morigin/staff_training[m[33m, [m[1;31morigin/ratana[m[33m, [m[1;32mveyo[m[33m, [m[1;32mtraining_module[m[33m, [m[1;32mratana[m[33m)[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Dec 8 11:45:49 2020 +0700
+
+    enable user to add course content as pdf file
+
+[33mcommit ee858c541e5ad9843f6cff52c172a26716f5ab1a[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Thu Dec 3 13:55:03 2020 +0700
+
+    change progress label to trainig progress label in enrollment
+
+[33mcommit cc192a2998ebae5d662b04cb91f546656c24204a[m[33m ([m[1;31muat/master[m[33m)[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Thu Dec 3 11:56:07 2020 +0700
+
+    [TASK] API: list staff active by company.
+
+[33mcommit 90870a75918f8b4259982cd36984e6247e34f870[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Thu Dec 3 09:56:42 2020 +0700
+
+    improve interface from ceo feedback and minor bug fix
+
+[33mcommit 4e0e816e6558350df38896e0d398da40b9be5703[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Mon Nov 30 16:46:12 2020 +0700
+
+    Fix error UI display group of button action in staff view all training event
+
+[33mcommit 0e533b6d8d49eb442d3354e181f6eeff64696af6[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Mon Nov 30 16:23:48 2020 +0700
+
+    improve some UI and logic from rathana feedback
+
+[33mcommit 2f64c2a40889a32fd401c62f612f893adf2c568f[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Mon Nov 30 15:32:22 2020 +0700
+
+    improve interface in staff view all training event button by using icon instance
+
+[33mcommit dddba19837b8477c26a3d5bab8a87aeb2634b5a1[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Mon Nov 30 10:32:56 2020 +0700
+
+    display given point for open question back after HR go to review trainee exam again
+
+[33mcommit 7e23749ccf73160c06e88c1f6e500eaaac395895[m
+Merge: bb259390 e440491c
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Sun Nov 29 14:47:59 2020 +0700
+
+    result confilct from remote branch veyo
+
+[33mcommit bb2593906780a4890509298d07ed6ced735efec7[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Sun Nov 29 14:44:26 2020 +0700
+
+    move constant file from training module into group usefull for tract history and and improvement hr and trainee flow
+
+[33mcommit e440491c6bc5343f6c59e6a4c71ea95f3a78420f[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 27 14:49:28 2020 +0700
+
+    [IMP] Add db seed for training module.
+
+[33mcommit 1b3a12107fe1e7cd5b111bd5184dd91e02f1f6d3[m
+Merge: cb32e967 02c5c597
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 27 14:25:59 2020 +0700
+
+    Merge branch 'training_module' of https://gitlab.com/stsk/hrmis into ratana
+
+[33mcommit 02c5c59728ccdfe053ff1438f8a4f92e3e07c84a[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri Nov 27 13:47:39 2020 +0700
+
+    remove unuseful attribute in trainee view result show total exam when trainee start take exam
+
+[33mcommit cb32e9673c1fc56100e9d1c01570e237f84f5e11[m
+Merge: c6749f7f 859c804b
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 27 13:05:15 2020 +0700
+
+    Merge branch 'training_module' of https://gitlab.com/stsk/hrmis into ratana
+
+[33mcommit 859c804b395363b30c06bbc4f6fb42443399f320[m
+Merge: 4d9efd24 6c84c633
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 27 13:02:43 2020 +0700
+
+    Merge branch 'training_module' of https://gitlab.com/stsk/hrmis into training_module
+
+[33mcommit 4d9efd24a4a3911296e71e8ad9a71551c5e687d1[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 27 11:40:33 2020 +0700
+
+    [TASK] #34 Develop feature Staff views training result.
+
+[33mcommit c6749f7fd606ef3c25d985b11bbf97ec784c2552[m
+Merge: 6c84c633 e6878f0b
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 27 11:45:42 2020 +0700
+
+    Merge branch 'veyo' into ratana
+
+[33mcommit 6c84c633dee348597add265368add1296a75515f[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 27 11:40:33 2020 +0700
+
+    [TASK] #34 Develop feature Staff views training result.
+
+[33mcommit e6878f0bec0a7f8b62e397e44646a9977dc0902a[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri Nov 27 10:57:19 2020 +0700
+
+    fix bug: show all trainees including trainee request status in pending in HR review training and exam (could show only trainee have been approved or added from HR)
+
+[33mcommit 8f834eae927b2b6da9e2b346d463dc10ea68bcf5[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri Nov 27 10:27:56 2020 +0700
+
+    implment function find next or previous when staff starts trainee
+
+[33mcommit daf9d7e4cfa87695c8ae84f072069aa81007af51[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Thu Nov 26 16:32:47 2020 +0700
+
+    add remark progress of trainee when finish training
+
+[33mcommit 16b57890f5ff8ca44649d0615e519574f095b485[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Thu Nov 26 14:38:25 2020 +0700
+
+    implement function HR can update trainee progress status to overdue,incomplete training, complete training, retoken
+
+[33mcommit 259ec77b4a0d8672ec95444a83091105db05a8e5[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Thu Nov 26 10:18:36 2020 +0700
+
+    implement function HR review trainee result
+
+[33mcommit bea00f8941357a7204875b0c6793ce51eb68cd0a[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Nov 24 17:52:24 2020 +0700
+
+    fix error permission when get brancha department in create new enrollment from testing server
+
+[33mcommit f00428ba7ad57b44b2ae44cd81274086bb0b279c[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Tue Nov 24 17:13:08 2020 +0700
+
+    [BUG] Remove permission from get current company.
+
+[33mcommit 80fffd306adc11b6f3e70db6779fcaddf77061fa[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Tue Nov 24 16:04:20 2020 +0700
+
+    Resole conflic on menu.
+
+[33mcommit c4ed901aa461211dd6d4aa0b57256967c139f0ea[m
+Merge: 0253f843 1e6fd6dc
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Tue Nov 24 16:02:17 2020 +0700
+
+    Merge branch 'veyo' into ratana
+    
+    # Conflicts:
+    #       config/adminlte.php
+
+[33mcommit 1e6fd6dcae102a97cb3668a62d3a7447754ad9d6[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Nov 24 15:57:45 2020 +0700
+
+    implement function hr review trainee take exam (not yet finish)
+
+[33mcommit 0253f84362a7b37ec9cc38d15e15f157fd6d5d8f[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Tue Nov 24 14:29:53 2020 +0700
+
+    [TASK] #28 អភិវឌ្ឍមុខងារ Manage staff login ដើម្បីប្រើប្រាស់មុខងារ Training នៅលើប្រព័ន្ធ HR, Training Module
+    - Human Resource Role
+    - Trainee Role
+
+[33mcommit ac1cc7b041f17ebca48b24d2f38be1d0ceb04e75[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Tue Nov 24 10:41:22 2020 +0700
+
+    [FUNC] Create database seeder role permission for HR-training module.
+
+[33mcommit 97068e2f765c09c7b35005b047ade8826cd64571[m
+Merge: e5b870ce 4eaac43c
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Tue Nov 24 10:36:56 2020 +0700
+
+    Merge branch 'ratana' of https://gitlab.com/stsk/hrmis into ratana
+
+[33mcommit e5b870ce9659c72f1cd5419a66609e4d97a9145b[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Mon Nov 23 18:10:03 2020 +0700
+
+    fix error with staff_personal_info_id in user table after merge with rathana branch
+
+[33mcommit 5c8acf132199827f01d8a4e0a64fd20aa5d10d49[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Nov 24 08:21:44 2020 +0700
+
+    fix error logic to get trainee base on enrollment event
+
+[33mcommit 4eaac43cc432866f3f084a404bfd8c666fbf86c6[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Mon Nov 23 18:10:03 2020 +0700
+
+    fix error with staff_personal_info_id in user table after merge with rathana branch
+
+[33mcommit 680a4eb9690651337c1731e67d509fef34f2e931[m
+Merge: fa033016 d4c0643c
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Mon Nov 23 17:37:49 2020 +0700
+
+    Merge branch 'veyo' into training_module
+
+[33mcommit d4c0643c1bf33bf4b202099ed6c5654cde08d4ee[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Mon Nov 23 17:35:32 2020 +0700
+
+    add missing file from previous commit
+
+[33mcommit d8571c8895730e99c50798c383a6581771fa9bf4[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Mon Nov 23 17:34:36 2020 +0700
+
+    implment function staff takes an exam when training completed
+
+[33mcommit fa033016fa672a9a36f0b574828fa4fd8d0919cf[m
+Merge: 7e034244 a17c5ad4
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Mon Nov 23 17:04:15 2020 +0700
+
+    Merge branch 'ratana' into training_module
+
+[33mcommit a17c5ad437bca5335749b608fa9193283f38df38[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Mon Nov 23 17:01:19 2020 +0700
+
+    [IMP] Imrpovement UI course content.
+
+[33mcommit 7cd8a79afbb1682b3416fa5224a24d3c846d4362[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 17:15:05 2020 +0700
+
+    [TASK] Manage staff login to use training module
+    - Function: Update function create user link to staff role (select from staff personal info with current contract) =>add field staff_personal_inof_id into user table
+
+[33mcommit 7e03424420a0366382ecf77b2a306c7cfdc3cd10[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 14:20:26 2020 +0700
+
+    Change structure response data.
+    
+    (cherry picked from commit 198f2029d3b876134a122d21b4b4599b6ae2e6ff)
+
+[33mcommit 198f2029d3b876134a122d21b4b4599b6ae2e6ff[m[33m ([m[1;33mtag: v4.0.9[m[33m)[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 14:20:26 2020 +0700
+
+    Change structure response data.
+
+[33mcommit 83b7de4b01deb6118ddf78ea58eeb7d45fb57b33[m
+Merge: 9145f247 79cd7412
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 13:35:29 2020 +0700
+
+    Merge branch 'testing' into ratana
+
+[33mcommit ae4a381df1e0919c94b477d466926a09c3249385[m[33m ([m[1;33mtag: v4.0.8[m[33m, [m[1;31morigin/fix_request_resign[m[33m, [m[1;32mfix_request_resign[m[33m)[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 12:16:38 2020 +0700
+
+    Disable menu HR-training
+
+[33mcommit 79cd741220f9d4c0c7bda226b0778e5ea88ef5a4[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 11:58:38 2020 +0700
+
+    [BUG] Return redirect wrong location.
+
+[33mcommit 9145f24746e7004d452e34d3ad0fbc51c834395a[m
+Merge: ef885f2d 41227c34
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 11:06:02 2020 +0700
+
+    Merge branch 'veyo' of https://gitlab.com/stsk/hrmis into ratana
+
+[33mcommit 41227c346a827e97476e4434756d81a8dfa33042[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri Nov 20 11:03:58 2020 +0700
+
+    fix incorrect staff id from peronal staff info in enrollment training course
+
+[33mcommit 5ffb9aa404ead417dc80097c9eaf13156b08c442[m[33m ([m[1;33mtag: v4.0.4[m[33m)[m
+Merge: 0be18529 2425f0aa
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 10:22:54 2020 +0700
+
+    Merge branch 'fix_api'
+
+[33mcommit 2425f0aa35729512bcdda4bbfe4072375e869ac9[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 10:22:12 2020 +0700
+
+    Fix error API wrong param name.
+
+[33mcommit ef885f2dbf5645a73d0a1f2cd6093d0b425c9a88[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 10:00:19 2020 +0700
+
+    [BUG] Fix error api when request failed.
+
+[33mcommit 0be1852955fdbdc021c63b0d9bb1539deec56c05[m[33m ([m[1;33mtag: v4.0.3[m[33m)[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 10:00:19 2020 +0700
+
+    [BUG] Fix error api when request failed.
+
+[33mcommit 3db380d9c86ba1bc27533029167613158469a09f[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 08:34:04 2020 +0700
+
+    Remove disable menu.
+
+[33mcommit 0ecca4b2beb9556f0eacf06f4a227822d9f53197[m
+Merge: c5f1c29e cceed50a
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 08:25:19 2020 +0700
+
+    Merge branch 'veyo' into testing
+    
+    - Resole conflic code between branch testing & veyo
+
+[33mcommit c5f1c29e416ffcbf1adb44972146551b3977f7e7[m
+Merge: 2ba4ec04 340a1a24
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 08:10:59 2020 +0700
+
+    Merge branch 'ratana' into testing
+
+[33mcommit 340a1a24c9ba76c1123c450746f499a4d69a588d[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Fri Nov 20 08:09:56 2020 +0700
+
+    1- Update exam
+    2- Create question assign to exam.
+    3- Edit question.
+    4- Delete question.
+
+[33mcommit cceed50a8c609d4a63c1229753c0d2efb7d9c5b2[m[33m ([m[1;31morigin/hr_enrollment[m[33m)[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Thu Nov 19 17:24:01 2020 +0700
+
+    improve UI create course content with textarea
+
+[33mcommit 2ba4ec04e5d02ea9d47db28acadc26d34cb0e49b[m[33m ([m[1;33mtag: v4.0.2[m[33m)[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Thu Nov 19 11:29:55 2020 +0700
+
+    [BUG] Increase php.ini on Server side.
+
+[33mcommit 46020a3c507f0719ebcab2d8edb2670f28904f94[m[33m ([m[1;31morigin/fix_bug_guarantor[m[33m, [m[1;32mfix_bug_guarantor[m[33m)[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Thu Nov 19 09:33:18 2020 +0700
+
+    Fix bug error guarantor.
+
+[33mcommit 1a8c95117a245698d818d0ad155e25db41d09f2e[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Wed Nov 18 23:43:08 2020 +0700
+
+    Update examination.
+
+[33mcommit 9cb212c0f4780838af98e257bdfb807746cca662[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Nov 18 16:04:49 2020 +0700
+
+    Implement function staff starts training when enrollment event is on time
+
+[33mcommit 8094fda97394889844a5f1d062f25e8f9d44a9a6[m[33m ([m[1;33mtag: v4.0.0[m[33m, [m[1;33mtag: detail[m[33m, [m[1;31morigin/vichear[m[33m, [m[1;32mvichear[m[33m)[m
+Author: SSKP\RATANA <khunratana168.edu@gmail.com>
+Date:   Wed Nov 18 15:27:13 2020 +0700
+
+    [IMP] Improvement guard request API.
+
+[33mcommit 2f6489f09c0a046a92c9b9074cefdbce52a0a012[m
+Author: unknown <Admin@SKP-OUNNEANGL.SSKP.LOCAL>
+Date:   Wed Nov 18 10:05:42 2020 +0700
+
+    Hide menu traingin module.
+
+[33mcommit 5a057daf6b157e48aa775f4321784f8c315b1015[m
+Author: unknown <Admin@SKP-OUNNEANGL.SSKP.LOCAL>
+Date:   Wed Nov 18 08:27:47 2020 +0700
+
+    DETELE & EDIT examination.
+
+[33mcommit 44d5532f2df90742ebdec4ffd9c06b04002bd5e5[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Nov 18 07:44:38 2020 +0700
+
+    implement trainee view own training schedule
+
+[33mcommit 36bec68c2bcdb75cc2f5b18489f00d9daacc035d[m
+Author: unknown <Admin@SKP-OUNNEANGL.SSKP.LOCAL>
+Date:   Tue Nov 17 18:17:56 2020 +0700
+
+    List exam
+
+[33mcommit 8b9b2e35a1625e3a5c3a082aa085ae9586cce1be[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Nov 17 16:29:42 2020 +0700
+
+    implement staff request join on training
+
+[33mcommit bb2a33d6e114b64957de90313a5df515f893263f[m
+Author: Vithiea <vithieahorwork@gmail.com>
+Date:   Tue Nov 17 11:54:49 2020 +0700
+
+    update UserController get staff profile by staff_id_card
+
+[33mcommit 0ea6feb1d5a11ac951a3cb0dec37b8484d65ab01[m
+Author: unknown <Admin@SKP-OUNNEANGL.SSKP.LOCAL>
+Date:   Tue Nov 17 09:15:09 2020 +0700
+
+    [TASK] Create function create examination.
+
+[33mcommit 4c24dc3f3cf80d7122d679749551995bb77d3345[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Nov 16 10:33:33 2020 +0700
+
+    [TASK] Function create examination.
+
+[33mcommit cd48728ea579f697d61b72b3f79f495602c045cf[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Nov 13 09:03:13 2020 +0700
+
+    Error js
+
+[33mcommit 03eed04d61a955a29877fa580c2757f2f2315e7a[m
+Merge: 530b9a2b 4c7b6327
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Nov 13 08:56:40 2020 +0700
+
+    Merge branch 'ratana' into testing
+
+[33mcommit 4c7b632747069b5b13f760a4d34a5776e715b676[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Nov 13 08:50:12 2020 +0700
+
+    [TASK] Form create examination.
+
+[33mcommit 530b9a2bbaee026c26cc73a59e10db76b68add30[m
+Author: Vithiea <vithieahorwork@gmail.com>
+Date:   Thu Nov 12 16:56:24 2020 +0700
+
+    get only current position
+
+[33mcommit 3994130082cd71e4b29ac4d8b3f26077b270bbdc[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Nov 12 14:48:25 2020 +0700
+
+    Resole conflict after merge from branch vichear
+
+[33mcommit 05e1235a1cb3085b12588e1dd17c636f29156d44[m
+Merge: 1d9fb348 6d38fc6a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Nov 12 14:30:00 2020 +0700
+
+    Merge branch 'vichear' into testing
+    
+    # Conflicts:
+    #       app/Exports/RequestResignExport.php
+    #       app/Http/Controllers/Report/ReportController.php
+    #       app/Http/Resources/ReportStaffRequestResignResource.php
+    #       app/RequestResign.php
+    #       public/js/app.js
+    #       public/js/reports/staff_profile/index.js
+    #       public/js/staff/index.js
+    #       public/js/staff_movement/create.js
+    #       public/js/staff_movement/index.js
+    #       public/js/staff_resign/create.js
+    #       public/js/staff_resign/index.js
+    #       public/js/unity.js
+    #       resources/assets/js/components/ReportRequestResign.vue
+
+[33mcommit 9c80886e608e7f855feb7ac1de1dbd5fedaceea2[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Thu Nov 12 11:42:36 2020 +0700
+
+    implement create/view list/view detail in enrollment feature
+
+[33mcommit 6d38fc6a7532f9968c36d432283dfa67da5a8b6f[m
+Author: Vithiea <vithieahorwork@gmail.com>
+Date:   Thu Nov 12 09:29:49 2020 +0700
+
+    create api staffprofile for e-approval system.
+
+[33mcommit 6913baf2bfc1a3d369cb79555b722199e03e3f57[m[33m ([m[1;31morigin/course_content[m[33m)[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Nov 10 09:21:12 2020 +0700
+
+    update function add create image type in course content
+
+[33mcommit 1d9fb3486d6f98cf8a9a0e5ac41ebb0ba9fa6536[m[33m ([m[1;33mtag: v3.0.23[m[33m, [m[1;31morigin/fix_filter_report[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Nov 10 08:30:35 2020 +0700
+
+    fix pagination in contact list.
+
+[33mcommit e1996794f7fe252a6bf2e62f51abc4c5b74df4dc[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Sun Nov 8 16:07:30 2020 +0700
+
+    add function update remove course content with type link/plain_text
+
+[33mcommit 1336291adc0f0528c41f40e952f305a54e14b307[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Nov 6 15:21:21 2020 +0700
+
+    [IMP] Fix feedback from bong bunthach.
+
+[33mcommit e3e6091b8acf90a04405c7f843ea70b18687807d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Nov 5 17:04:40 2020 +0700
+
+    [BUG] Can\'t access image to view.
+
+[33mcommit 1a1c6288de59664f5ef835e833a711033d182b6d[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Thu Nov 5 10:40:47 2020 +0700
+
+    implement edit course content (not done yet)
+
+[33mcommit a5c1e90f954264501d6044ec48f763ee353a57a0[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Nov 4 09:19:30 2020 +0700
+
+    implement create new course content with type sound
+
+[33mcommit 3a4ce00eb8b3c58e88ac321b848d821990ac4a71[m[33m ([m[1;33mtag: v3.0.10[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Nov 3 16:19:29 2020 +0700
+
+    [IMP] ធ្វើបច្ចុប្នន្នភាពប្រព័ន្ធ HR បន្ថែមមុខងារ Filter លើរបាយការណ៍.
+
+[33mcommit 41f11c5d61427784f07f04eb60d7b925ac90223c[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Nov 3 14:33:01 2020 +0700
+
+    git cache cleared
+
+[33mcommit 26f33e1cbb8016d60956203a8ce439132179a51d[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Nov 3 14:23:00 2020 +0700
+
+    implement create course content with type images
+
+[33mcommit 6f73fa54dc7655d54b5daf70791e6ec1e4a5482e[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Oct 28 15:54:31 2020 +0700
+
+    implement add course content with plain text
+
+[33mcommit a0f919593e104afec362e042bf5cdbc934dc8a8d[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Oct 20 13:30:32 2020 +0700
+
+    [IMP] Improvment follow feedback boss.
+
+[33mcommit 5bf6efc52ae93ca332f192441d5e69014685a95a[m[33m ([m[1;33mtag: v3.0.1[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Oct 16 16:10:16 2020 +0700
+
+    [TASK] Error staff request resign.
+
+[33mcommit ff98978395d2ecbf233160fa8df9ba79ebeeeb36[m[33m ([m[1;31morigin/remove_status_probation[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Oct 14 23:36:53 2020 +0700
+
+    [IMP] Remove status Probation
+
+[33mcommit bebd78b5a4d3db769e3ec7841ec3d2b751cd50ae[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Oct 14 22:53:12 2020 +0700
+
+    [TASK] Modify date formate.
+
+[33mcommit 19dbdd225e2e7a7836c771bd26c83e2074a8ae63[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Oct 14 15:45:19 2020 +0700
+
+    [IMP] Check menu request resign.
+
+[33mcommit dcd81739fb27b0a5aa3562e782cd1e36a9fec305[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Oct 14 15:20:30 2020 +0700
+
+    [IMP] Prevent user book crush company during have other contract.
+
+[33mcommit 6870ddcdb8aca76c61049cb49588a682382083ac[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Oct 14 11:09:12 2020 +0700
+
+    [IMP] Load position, branch if staff has old company.
+
+[33mcommit 16b622b0b9367749bfd32d21e24587e0824310a3[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Oct 14 10:12:17 2020 +0700
+
+    Date for mate
+
+[33mcommit 6017f89170edc28bfb1b490bd93cee2f9b33c0b7[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Oct 14 10:03:18 2020 +0700
+
+    [Remove validation]
+
+[33mcommit 4a6ff391187b8a3c185176c6565942d4ce1587ab[m[33m ([m[1;31morigin/allow_edit_old_contract[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Oct 13 17:01:48 2020 +0700
+
+    [IMP] Allow update old contract
+
+[33mcommit 9149ec487bca80f7e5b8a40f2aadb9fb359bfedf[m[33m ([m[1;31morigin/send_mail_debug[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Oct 13 09:40:34 2020 +0700
+
+    [TASK] Send bug report to email.
+
+[33mcommit 9e3750b01f13ae314bae443af9ebeba27261d8b1[m[33m ([m[1;31morigin/migrate_staff_id[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Oct 12 16:58:05 2020 +0700
+
+    [FIX] Fix bug increase ID card on the same staff.
+
+[33mcommit d7cd7775c9b3c856026df6828c197cc83cc5540d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Oct 12 16:39:19 2020 +0700
+
+    [TASK] Migrate staff ID card, and Master password.
+
+[33mcommit c4c2156bfdd352f1ba7a2f025268c019fa0386ec[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sat Oct 10 00:11:03 2020 +0700
+
+    [TASK] Fix error filter report, User cac't short by branch and position.
+
+[33mcommit afe3b377391de399ce8a49404c64431aeb73fd4b[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Oct 9 00:24:19 2020 +0700
+
+    [BUG] Can't save update data.
+
+[33mcommit 758ca671353dd8fd5071a7797de9e961dad1eb63[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Oct 8 23:36:58 2020 +0700
+
+    [IMP] Fix bug user can not update staff.
+
+[33mcommit 3a0a18758dfcffb50ba74c8fdc87b782baf04acb[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Oct 8 15:33:16 2020 +0700
+
+    [FIX] Can not book new contract after resign.
+
+[33mcommit 603602cd54380cfb36b8ebbc15c55f92e77fef6b[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Oct 8 08:38:32 2020 +0700
+
+    [IMP] Move menu request resign into menu Report.
+
+[33mcommit e4d8b2961772823c029df1cc9df5575d1a1de4e5[m
+Merge: f278d218 9785c8f2
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Oct 8 08:41:11 2020 +0700
+
+    Merge branch 'ratana' into training_module
+
+[33mcommit 9785c8f2571374317e332ac71a7d91d30d2e7921[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Oct 8 08:38:32 2020 +0700
+
+    [IMP] Move menu request resign into menu Report.
+
+[33mcommit f278d218d25ac403bae24afdacbf0aafbaf23a29[m[33m ([m[1;31morigin/course_setting[m[33m)[m
+Merge: d4c129dc 3bc19546
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Oct 7 14:21:13 2020 +0700
+
+    Merge branch 'veyo' into training_module
+
+[33mcommit 3bc1954631f0f6823283edf2151abd51555eb62e[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Oct 7 14:19:35 2020 +0700
+
+    [VEYO]
+
+[33mcommit d4c129dcf2ea304476a89576aa433f74c29059ac[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Oct 7 11:24:20 2020 +0700
+
+    [TASK] Implement view detail about Category setting.
+
+[33mcommit 86ef97455e3e39e7b6123f64852d9f7c608ae6b9[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Oct 7 10:55:22 2020 +0700
+
+    [VEYO] Change category field to match with database
+
+[33mcommit ac699f54da10161ff73959af25212fb78f22c33b[m
+Merge: 0788c5ee 51d553f4
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Oct 7 10:46:26 2020 +0700
+
+    Merge remote-tracking branch 'origin/course_setting' into training_module
+
+[33mcommit 51d553f4f76084ca3e6b2bf4da4802adb5a3d89d[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Oct 7 10:33:49 2020 +0700
+
+    [VEYO] Implement delete course
+
+[33mcommit 0788c5eee5538b4e272597fc341e1220ecaf4f99[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Oct 7 10:33:11 2020 +0700
+
+    [TASK] Implement feature Category for module training.
+
+[33mcommit c1e30a658558d4607a9314677929dee0a4f68afe[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Oct 7 10:23:01 2020 +0700
+
+    [VEYO] implement course list and detail
+
+[33mcommit da067b150bed5674635cf2ae8f6e251a494766f9[m
+Merge: 1d0ab5e9 1641bca4
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Oct 7 09:07:16 2020 +0700
+
+    Merge remote-tracking branch 'origin/course_setting' into ratana
+    
+    # Conflicts:
+    #       Modules/HRTraining/Entities/Categories.php
+
+[33mcommit 1d0ab5e978f4572a3420b910159518129b47e2a9[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Oct 7 09:04:49 2020 +0700
+
+    [TASK] Implement feature category. NOT YET DONE
+
+[33mcommit 1641bca400c98676e17f0461ff37c023acf49cd8[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Oct 6 18:17:54 2020 +0700
+
+    [VEYO] Add function create new course
+
+[33mcommit 250a9cc70521eb21e8ae11684ddf4c3bcf76a73f[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Oct 6 15:29:32 2020 +0700
+
+    [VEYO] Add table name and fields to all model in hr-training module
+
+[33mcommit d5143f89f80e06ff63376e86714f86deadbcb296[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Oct 6 12:04:43 2020 +0700
+
+    [VEYO] Migrate new table with training module
+
+[33mcommit a3103f47252712cef37bd7035d6a54e0ed3d22fb[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Oct 6 09:20:56 2020 +0700
+
+    [VEYO] Prepare HR-Training module project structure
+
+[33mcommit d4a31572c7be9d48f2ec31e0b2257f634fb25dc1[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Oct 2 14:15:34 2020 +0700
+
+    [IMP] Show request resign by company.
+
+[33mcommit 71ed7c1ce863f6cf6a0c59f4351f96baa861ae1c[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Oct 2 13:44:21 2020 +0700
+
+    [TASK] Implement feature request resign for staff.
+
+[33mcommit 50e0ad67d6186c111aac21900a46f2e9865f20b3[m
+Merge: 03c0358c 80439ea4
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Oct 1 09:26:11 2020 +0700
+
+    Merge branch 'ratana' into testing
+
+[33mcommit 80439ea4b6f5df138079b70b582d58ab84258972[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Oct 1 09:24:19 2020 +0700
+
+    [TASK] Staff request resign
+
+[33mcommit 03c0358cd9bdf0d55b2b96d78b60a471f9c17c1d[m
+Merge: a368cce6 fc014b5d
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 30 12:00:48 2020 +0700
+
+    Merge branch 'bug_select_company_date_formate' into testing
+
+[33mcommit fc014b5dcb7f55ce1b20c1aece80d2bc23b1caa9[m[33m ([m[1;31morigin/bug_select_company_date_formate[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 30 11:59:43 2020 +0700
+
+    [BUG] Fix error script because package laravel/speed-page
+
+[33mcommit a368cce677cabe76662be3e8c92ee6a731e729c1[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 30 10:50:41 2020 +0700
+
+    [IMP]
+
+[33mcommit 729698b3553321a4be1caae6dc59e6e3e5f4469c[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 30 10:46:46 2020 +0700
+
+    [IMP]
+
+[33mcommit cbfb246d3dd08fdc895ef8fe9f23967a0da44627[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 30 10:16:45 2020 +0700
+
+    IMP
+
+[33mcommit b439a19171dc22f9b0d80d9adb5fc9aa9f6f3457[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 30 09:57:47 2020 +0700
+
+    [IMP] Add select2 to dropdown list.
+
+[33mcommit 30c6f4cef3a5aa5b48af2abe972c3989e49c99cf[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 30 09:43:03 2020 +0700
+
+    [BUG] Error loading company_code, branch_code, position_code and date format on edit contract.
+
+[33mcommit 3d7472d602fb37c17264c0350088f3a02128d8bb[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 30 08:09:40 2020 +0700
+
+    [TASK] Staff request resign NOT YET DEON.
+
+[33mcommit f8dc2d0d33ba5260fd6aceb01ee71fc0a3184924[m
+Merge: 6e2150d6 8d90806a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 28 07:42:18 2020 +0700
+
+    Merge branch 'testing'
+
+[33mcommit 8d90806a049c8fbdfdd2f545b5c9f55531006621[m[33m ([m[1;31morigin/bug_book_contract[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 25 11:59:26 2020 +0700
+
+    [TASK] Update status REGULAR to FDC, UDC and Show gift loading when click on button search and download.
+
+[33mcommit c962ca1ccbeef9e2a1a38447728ce66a13fecc45[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 25 09:47:28 2020 +0700
+
+    [TASK] Update staff select company, branch, position.
+
+[33mcommit 6e2150d6d514ccfc19ef80e4c7202ae9accfe9dd[m[33m ([m[1;31morigin/hot-bug[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 22 14:18:42 2020 +0700
+
+    [FIX BUG] Duplicate staff ID after create personal info.
+
+[33mcommit cf71bd83072c7dc06952c405a7e1e35e358309e9[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 22 10:52:42 2020 +0700
+
+    [TASK] Fix bug report staff end contract.
+
+[33mcommit 90afdf370ecd0be122097f5e05a60aea48da5fee[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 21 22:32:46 2020 +0700
+
+    [TASK] Show message in khmer.
+
+[33mcommit 71bf5567460654797f2cdcc83dfd24001c2d7629[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 21 13:35:03 2020 +0700
+
+    [TASK] Fix bug select contract type not working well.
+
+[33mcommit 3e292dd06e0b8b906cf0aa6e8f6e805d605b2068[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 21 10:52:08 2020 +0700
+
+    [TASK] Edit contract
+
+[33mcommit c2224474b9235b28ea38ab874e666a9401330104[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 21 09:13:25 2020 +0700
+
+    [TASK] Fix bug edit contract.
+
+[33mcommit 29a37c1ec7b6268ec9a907eda862c34e5c1c78c1[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sun Sep 20 19:30:00 2020 +0700
+
+    [TASK] Fix-bug booking contract not show position, branch/department, company.
+
+[33mcommit 3dccda30cdc30c5847e195588c4f0900f23985a4[m
+Merge: 7e2fec35 8a257082
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 15 14:10:00 2020 +0700
+
+    Merge branch 'adjust-report' into testing
+
+[33mcommit 8a257082a8d085ea82278f97b90e0dbca53340d7[m[33m ([m[1;31morigin/adjust-report[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 15 11:31:24 2020 +0700
+
+    [TASK] Report staff end contract [not yet done: file donwload have no data.]
+
+[33mcommit 49334b638325deeca52837921f77033562109d61[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Sep 10 13:37:33 2020 +0700
+
+    [FIX BUG] Incontract must have staff personal info.
+
+[33mcommit d9fa667c6493b8849a9947c70841bce75c3a7dce[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Sep 10 11:51:23 2020 +0700
+
+    [TASK] Report staff end contract interface.
+
+[33mcommit a0ef763b287bbe80cbb476c66ee56312adfd71b6[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Sep 10 10:40:37 2020 +0700
+
+    [TASK] Report staff movement interface.
+
+[33mcommit 247a9a92b83da86fc0d435b9f0e060a8293f7cd6[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 9 14:13:34 2020 +0700
+
+    [IMP] report movement and resign [not yet done]
+
+[33mcommit 66ada9beb19ffd9c14cf9fb8297e1e416b28d785[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 7 23:00:03 2020 +0700
+
+    [TASK] Update interface and fix bug error report. [FEATURE] Report staff active.
+
+[33mcommit 7e2fec357f565738e5d8b81f0c4bc11c6f43d109[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 4 15:45:01 2020 +0700
+
+    [BUG] Save wrong position. Because not filter with company.
+
+[33mcommit 353af113e2495fb55b1850760ba08e648ce5f661[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 4 00:18:31 2020 +0700
+
+    [IMP] Identify message when error.
+
+[33mcommit 2f54e3004e1253dbac5ad1a20074b2b404463be8[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Sep 3 09:02:46 2020 +0700
+
+    [HOT-BUG] Can't select drop down year and month.
+
+[33mcommit da8111f76d7bd6790975bd481d47361768819271[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Sep 3 08:07:08 2020 +0700
+
+    Adjustment report and update interface
+
+[33mcommit 15de43be10e79d680744970da5b49c99cf436ac0[m[33m ([m[1;31morigin/v2[m[33m)[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Aug 26 14:24:14 2020 +0700
+
+    [Not yet done] Report using vue.
+
+[33mcommit c16829a4e69a8b89bf0a894fdf5800ade090ef3e[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 25 16:41:37 2020 +0700
+
+    [HOT-FIX] Change minDate on datepicker on contract booking
+
+[33mcommit 158411058264c326d0f89809243f7a724a958baf[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 25 16:17:06 2020 +0700
+
+    Report using Vue [Not yet done]
+
+[33mcommit 61b8efc4293c026d4107ab1ce2f4e602591715d7[m
+Merge: 48ce09d8 fa38bb14
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 14 10:36:35 2020 +0700
+
+    Merge branch 'master' into v2
+
+[33mcommit fa38bb146cb453ab3a1b4a60de7775f19e4b9309[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jul 2 22:47:46 2020 +0700
+
+    [TASK] Show contract by company.
+
+[33mcommit d7f1449cb33847c0744b2ac6426ad18404192ab4[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jul 2 21:49:26 2020 +0700
+
+    [TASK] Big improvement.
+
+[33mcommit 867c6a054220b9a9e529fd35fa7a2cb1f85f0359[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 1 11:42:27 2020 +0700
+
+    Remove duplicate method in User model.
+
+[33mcommit 48ce09d8da9b1ae27045a0e663754704e357cf3f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 1 11:42:27 2020 +0700
+
+    Remove duplicate method in User model.
+
+[33mcommit 0a1c5b96098729e25d5bf35c206269b1bbe4f4b8[m
+Merge: 2c70aafd f0667434
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 1 04:39:42 2020 +0000
+
+    Merge branch 'v2' into 'master'
+    
+    V2
+    
+    See merge request stsk/hrmis!163
+
+[33mcommit f066743481e6b064325dd28f4039e965768664da[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 1 11:38:17 2020 +0700
+
+    [Noting]
+
+[33mcommit 9f9d04fdba656ce141ca72d4fa1fec20d3c60b94[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 1 11:19:48 2020 +0700
+
+    [TASK] Update create and update user.
+
+[33mcommit 2c70aafd5433d31884bd046f99f3f270f5a1f5be[m
+Merge: 03796e13 9eb2b02f
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 1 11:31:27 2020 +0700
+
+    Merge branch 'v2' of https://gitlab.com/stsk/hrmis
+
+[33mcommit 03796e13d4e0aeb964280c03baa5de0ad4299537[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 1 11:19:48 2020 +0700
+
+    [TASK] Update create and update user.
+
+[33mcommit 9eb2b02f9fb65a9e323c04b2cfbd4a14b6698c31[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 1 11:19:48 2020 +0700
+
+    [TASK] Update create and update user.
+
+[33mcommit 1dfe410517c27037ce334cc1a52424940b17d586[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 30 15:22:56 2020 +0700
+
+    [IMP] Implement dashboard show summary report.
+
+[33mcommit 82b5298a9107398733d637bbbfcc0d19490007e1[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 30 14:21:34 2020 +0700
+
+    [IMP] Implementing improvement interfacce and feature follow by comment HR team.
+
+[33mcommit 986cee3c63cba4afb7b89322d863511dfdb88c37[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 17 14:54:09 2020 +0700
+
+    [IMP Interface]
+
+[33mcommit afdfb2e8bd922986296776dd57361b82ddfe674b[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 17 08:59:09 2020 +0700
+
+    test
+
+[33mcommit 174f67856d488393dfff4f60d01039ef3a5819b4[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 16 14:47:38 2020 +0700
+
+    enable select company in create position and minor bug fix
+
+[33mcommit f50c9f9e85c97478278c020bbe83671cf676e268[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 15 10:45:20 2020 +0700
+
+    [TASK] Update Interface.
+
+[33mcommit fd321baabe879a66a73fa49782d624fb0a6e5193[m
+Merge: 08a6db12 94635b25
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 15 10:35:39 2020 +0700
+
+    Merge branch 'v2' of https://gitlab.com/stsk/hrmis into v2
+
+[33mcommit 08a6db12380c0f7818b65ad25c4df6744de98fca[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 15 10:35:04 2020 +0700
+
+    [TASK] Update interface staff report
+
+[33mcommit 94635b25e87b71f4d863823f4c2d7dc918430883[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri Jun 12 08:47:07 2020 +0700
+
+    improve label text display and some UI
+
+[33mcommit d3fffed777a2eaa84ec354561054d19922683cec[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 9 14:09:47 2020 +0700
+
+    Handle create user manage staff personal by company
+
+[33mcommit 9989034f44a535b9603a225189deabcf160bc621[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 9 08:42:16 2020 +0700
+
+    check search staff personal info not working properly
+
+[33mcommit 2bbf7f5f9ac0fa09c292ca76950c29851f1f839b[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 9 08:09:30 2020 +0700
+
+    Validate create new staff contract
+
+[33mcommit ea82fe686954c5bc205cfd6e19ca09e4acefdcd2[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Mon Jun 8 14:54:07 2020 +0700
+
+    update staff personal info detail to table list
+
+[33mcommit 4be644c23ef4229a7257128dbdb70f949ba00afa[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 5 16:24:45 2020 +0700
+
+    [IMP] create contract
+
+[33mcommit 0f75cd6eddce7849897c630b251b52275eb190cb[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 5 16:31:24 2020 +0700
+
+    resoled conflig
+
+[33mcommit d69d010d394eb1f5e0713c25e9b316e9dd691327[m
+Merge: 0ce3ae6c df62eaff
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri Jun 5 14:55:17 2020 +0700
+
+    Merge branch 'v2' of gitlab.com:stsk/hrmis into v2
+
+[33mcommit 0ce3ae6c2d209195a52cbb08d98cfe4c3cc92991[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri Jun 5 14:54:44 2020 +0700
+
+    update report separted to active/end contract/movement
+
+[33mcommit df62eaff52723c8956a547b7b1027a1ccc363cf4[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri Jun 5 10:13:52 2020 +0700
+
+    [TASK] Get by current user branch
+
+[33mcommit 462ef367dccf2856cdeac491f6e2c6edb1a05894[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri Jun 5 10:13:52 2020 +0700
+
+    change contract active type in view report active
+
+[33mcommit 9d7678e94ad18127a358e10203ef11bc7bdea894[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri Jun 5 10:07:55 2020 +0700
+
+    update report from contract to active
+
+[33mcommit 924ac1a1fa5126041e0b4ba6319cb9724950cd42[m
+Merge: 2c6044ff 04dabccb
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 4 16:49:59 2020 +0700
+
+    Merge branch 'v2' of https://gitlab.com/stsk/hrmis into v2
+
+[33mcommit 2c6044ff45b673594b9f2c56d5f1d467b5bd8ade[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 4 16:36:38 2020 +0700
+
+    [IMP] Change advance filter and query filter.
+
+[33mcommit e64286c8ff035afc4b97ad38b823ed7f0a4ca2a9[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Jun 3 18:45:51 2020 +0700
+
+    implement contract report
+
+[33mcommit c3cb35958cc5ea92a6cea19711d57acc0ce826a3[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Jun 3 14:14:10 2020 +0700
+
+    ctory
+
+[33mcommit b1df277ead8b95a93a56f43d68c29019c17cb2a6[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Jun 3 13:46:20 2020 +0700
+
+    Define new position code
+
+[33mcommit 0cc9560b4d018d0d4e99447b0c0e1cb81bb4cbc9[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Jun 3 10:40:55 2020 +0700
+
+    Implement shortcut for action contract from create staff personal
+
+[33mcommit a97c74044bb7897432d6212bde19e4fc62e13697[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 2 16:12:31 2020 +0700
+
+    implement action delete contract
+
+[33mcommit c45e03d8085e1db640d2e380e0511fa36aa6c2c8[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 2 15:11:58 2020 +0700
+
+    implement redesign form contract
+
+[33mcommit 73d1b3ea34b8ec32375a8ae861b86f3bc4facf9c[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 2 10:57:23 2020 +0700
+
+    implement redesign contract form
+
+[33mcommit 34eee4843fc275156342a0c98369fd715dc7d05c[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 2 08:52:45 2020 +0700
+
+    [IMP] Remove ID type, house, street.
+
+[33mcommit c43666a17a470cfb004dc9890e046b1a98ae90d7[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 2 08:08:16 2020 +0700
+
+    [IMP] Remove some filter from index page.
+
+[33mcommit a4c563749cd32b2d50d878a6ab9845735b7f8852[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 2 09:40:02 2020 +0700
+
+    redesign contract form
+
+[33mcommit 04dabccb1cb0bea9c865c57e30bd092e5bac3b69[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Jun 3 18:45:51 2020 +0700
+
+    implement contract report
+
+[33mcommit 64a6cae1d9524f3f899e653a41d0e03990bbb84e[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Jun 3 14:14:10 2020 +0700
+
+    ctory
+
+[33mcommit 6216222469adbf54e9957659573b655bf7eb3ef8[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Jun 3 13:46:20 2020 +0700
+
+    Define new position code
+
+[33mcommit 37a5ff177eee1d6dd36ac77f215382ce073ea1ad[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed Jun 3 10:40:55 2020 +0700
+
+    Implement shortcut for action contract from create staff personal
+
+[33mcommit 2775af074c96c202214dc3db775f058f885d5adc[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 2 16:12:31 2020 +0700
+
+    implement action delete contract
+
+[33mcommit f81838ff53f0194aefb89792e6f25208f07ace25[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 2 15:11:58 2020 +0700
+
+    implement redesign form contract
+
+[33mcommit 04d4c30f6597eeac9fdc09c78be387674bb1c5c3[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 2 10:57:23 2020 +0700
+
+    implement redesign contract form
+
+[33mcommit f0373b229b55d1f5538b82579f90474bd758ee95[m
+Merge: aad770fa 60530232
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 2 09:40:12 2020 +0700
+
+    Merge branch 'v2' of gitlab.com:stsk/hrmis into v2
+
+[33mcommit aad770fafab928705776b6a567bcabcb38421247[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue Jun 2 09:40:02 2020 +0700
+
+    redesign contract form
+
+[33mcommit 605302322252938abf9e1d63bfd92612d3672150[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 2 08:52:45 2020 +0700
+
+    [IMP] Remove ID type, house, street.
+
+[33mcommit faeaf7698b5de5f86483dbfd39e303691efb2e2c[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 2 08:08:16 2020 +0700
+
+    [IMP] Remove some filter from index page.
+
+[33mcommit f1d26e0cf64e635737243e6734194924564cafe3[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Sun May 31 23:16:22 2020 +0700
+
+    implement staff contract demote, terminate and layoff
+
+[33mcommit b0ea9a5f49c1c5faec9d065ed1b06ff97abcec66[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Sun May 31 17:38:15 2020 +0700
+
+    implement for staff contract promote and death
+
+[33mcommit a916db2b36561d960ab03b7c7d641c77266b1a8d[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Sun May 31 15:28:30 2020 +0700
+
+    implement for staff contract regular
+
+[33mcommit faba3c83cc97eee3bff0f3d5ff2c87551045c177[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Sun May 31 15:00:13 2020 +0700
+
+    implement for staff contract change location
+
+[33mcommit 2f407912dd1955e476a1a5475c8509d090332718[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri May 29 23:09:07 2020 +0700
+
+    last commit with missing un-comment code in contract
+
+[33mcommit 623acd6750192ad32a05907065479db8e09c5f41[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri May 29 23:05:43 2020 +0700
+
+    implement contract resign action
+
+[33mcommit ba12c9b4d0c6e5ceb5f3ac62e1bdedf319329c1a[m
+Merge: fa7f320a a4722897
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri May 29 15:05:58 2020 +0700
+
+    Merge branch 'master' of gitlab.com:stsk/hrmis
+
+[33mcommit a4722897c3bd0158a262d91e80c1d84207ed942d[m
+Merge: 3ec09cba 48b482db
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri May 29 08:05:46 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Rollback task to old interface.
+    
+    See merge request stsk/hrmis!162
+
+[33mcommit fa7f320ac9ea173c56c50569d818118cad5d8497[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Fri May 29 15:05:02 2020 +0700
+
+    show contract form by type
+
+[33mcommit 48b482dbc23a8be9c1787f22305cfecc924abac4[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri May 29 14:07:42 2020 +0700
+
+    [TASK] Rollback task to old interface.
+
+[33mcommit 3ec09cba65dbe92fa922b4f56552e954177f48e3[m
+Merge: d3ad8839 17c1607a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri May 29 00:39:56 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Interface resign and change location.
+    
+    See merge request stsk/hrmis!161
+
+[33mcommit 17c1607a97d685cd2caa931c50022580db7621e4[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri May 29 07:38:54 2020 +0700
+
+    [TASK] Interface resign and change location.
+
+[33mcommit d3ad88394922d66b607b68c281162b289db96d0e[m
+Merge: 9bfb4ded 6cbc2404
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu May 28 03:16:39 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Implement staff contract. [Filter date not working]
+    
+    See merge request stsk/hrmis!160
+
+[33mcommit 6cbc24042c23f3fde10393c52e6309bc5e811ff7[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu May 28 10:12:52 2020 +0700
+
+    [TASK] Implement staff contract. [Filter date not working]
+
+[33mcommit 9bfb4dedc132dc0bfe02471ee144b5f4d6c6ef9a[m
+Merge: 18d856c7 f519cbf9
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Thu May 28 07:57:56 2020 +0700
+
+    merge v2
+
+[33mcommit f519cbf98451714f1e4ace4b2cfb1e743ee36be1[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Thu May 28 07:46:19 2020 +0700
+
+    fix error in view staff profile detail
+
+[33mcommit d96c2755dd958bb250eef5f82d13984b96fab6b0[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed May 27 16:36:56 2020 +0700
+
+    implement create contract actions detail
+
+[33mcommit 18d856c7496148ae93e5b32b488cd433683f6a07[m
+Merge: 7ccfa44e 76165c0e
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed May 27 08:20:58 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Implement staff contract [Create only]
+    
+    See merge request stsk/hrmis!159
+
+[33mcommit 76165c0e2391a9e335a73613d1dc38713b5f0a70[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed May 27 15:19:20 2020 +0700
+
+    [TASK] Implement staff contract [Create only]
+
+[33mcommit 7ccfa44e7c5fa8d8f16c1ea05b7eb4391b70f522[m
+Merge: a4c40db7 9f7fae0f
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue May 26 06:57:46 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Store contract [Not yet done]
+    
+    See merge request stsk/hrmis!158
+
+[33mcommit 9f7fae0f17491a1bafd8de5e9a42a0050f33658a[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue May 26 13:50:13 2020 +0700
+
+    [TASK] Store contract [Not yet done]
+
+[33mcommit a4c40db7ffcd7bedf45b6fdc008aff190ff77cb4[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue May 26 13:51:12 2020 +0700
+
+    add select date picker in create contract form
+
+[33mcommit 1faf246a5f37147e3b90e64e8501b9a840b45983[m
+Merge: 7c90da86 eb759ac9
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Tue May 26 08:18:43 2020 +0700
+
+    resolve conflict merge v2 into master
+
+[33mcommit 7c90da869d2fb8d6ac41cc43a2cb7fd0134c5737[m
+Merge: 51e32033 ee7a01e8
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon May 25 15:20:33 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Create contract [Not yet done]
+    
+    See merge request stsk/hrmis!157
+
+[33mcommit ee7a01e8f26470706a19ebda742ef634d9a93630[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon May 25 22:19:33 2020 +0700
+
+    [TASK] Create contract [Not yet done]
+
+[33mcommit 51e32033e078b16b39eb8a57897740aee701658f[m
+Merge: 5eed13af b9c8d5ae
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri May 22 10:04:47 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Implement staff contract. [Not yet done]
+    
+    See merge request stsk/hrmis!156
+
+[33mcommit b9c8d5aec0f63400fc864e5ddd67379ce03522ec[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri May 22 17:03:35 2020 +0700
+
+    [TASK] Implement staff contract. [Not yet done]
+
+[33mcommit eb759ac91bfe2af9eddaef135af5fa8a4a931a7f[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed May 13 15:40:01 2020 +0700
+
+    Update query link to contract with view staff profile
+
+[33mcommit a236255e4da06b1303ee97e3be0f50ef3d31907e[m
+Author: veyo.skp <veyonuon.skp@gmail.com>
+Date:   Wed May 13 14:48:57 2020 +0700
+
+    handle get staff profile link with contract in view staff profile list
+
+[33mcommit 5eed13afe27f3ecd9cc483e12e810975a9431dd0[m
+Merge: b25d6b3d c81bdb21
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon May 11 06:33:25 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Add field to users table
+    
+    See merge request stsk/hrmis!155
+
+[33mcommit c81bdb21a66be7744989d996c4d7353d0581a1ef[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon May 11 13:32:32 2020 +0700
+
+    [IMP] Add field to users table
+
+[33mcommit b25d6b3d1897e01b4eabb6a09ab8bbff5136850d[m
+Merge: 146d1bf7 c578ee5d
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon May 11 03:06:13 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Database design structure
+    
+    See merge request stsk/hrmis!154
+
+[33mcommit c578ee5d08e4bd7eeb613e5dbff5a9727e472d15[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon May 11 10:04:26 2020 +0700
+
+    [TASK] Database design structure
+
+[33mcommit 146d1bf77170e8251637bd83929dde710e3e3700[m
+Merge: fad205d5 afb643a2
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Dec 3 02:51:33 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [BUG] Date can't select end of year +1
+    
+    See merge request stsk/hrmis!153
+
+[33mcommit afb643a211230c9372933bf96d1600895ebc5657[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Dec 3 09:50:49 2019 +0700
+
+    [BUG] Date can't selete end of year +1
+
+[33mcommit fad205d51c4bcc057c6fb557691b9ea4186edca2[m
+Merge: 59cfd250 a9c47ccc
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Oct 11 09:12:17 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [BUG] Error staff movement when staff resign and then deleted record.
+    
+    See merge request stsk/hrmis!152
+
+[33mcommit a9c47ccc4437352f00b283252150b44a0f2fac8c[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Oct 11 16:08:26 2019 +0700
+
+    [BUG] Error staff movement when staff resign and then deleted record.
+
+[33mcommit 59cfd2507fa2ed80c55d7880953f5570d943cac7[m
+Merge: 41bf149a ee294664
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 17 09:24:42 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [BUG] Error console
+    
+    See merge request stsk/hrmis!151
+
+[33mcommit ee2946646e04065925d0f1d7aea90a453900c687[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 17 16:24:09 2019 +0700
+
+    [BUG] Error console
+
+[33mcommit 41bf149ac73f07ddaafbb1dc9b1fd4c436fc9550[m
+Merge: 5401f29f 0a601b1a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 17 08:44:31 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [BUG] Search staff resign
+    
+    See merge request stsk/hrmis!148
+
+[33mcommit 0a601b1a5611829458852241655b7812fc140b67[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 17 15:43:27 2019 +0700
+
+    [BUG] Search staff resign
+
+[33mcommit 5401f29f854eb4d79fe04ccd3b99c66de92aa6ee[m
+Merge: 33ea0127 2faf0553
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 17 08:32:15 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Implement component Vue.js
+    
+    See merge request stsk/hrmis!147
+
+[33mcommit 2faf055301f342fe0026d50ad069cab58eb00a2f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 17 15:31:25 2019 +0700
+
+    [TASK] Implement component vue.js
+
+[33mcommit 33ea0127f3ae2a5fda902f597c00b661f827078a[m
+Merge: cd9ff187 56e59b46
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 17 00:55:14 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [BUG] Not show staff info
+    
+    See merge request stsk/hrmis!146
+
+[33mcommit 56e59b46f55279338ef8f919f83bea8218a9f09b[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 17 07:54:09 2019 +0700
+
+    [BUG] Not show staff info
+
+[33mcommit cd9ff18757d85f4e73d4d73fa067098606a7123b[m
+Merge: a5f34aa4 ef787cb1
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 17 00:49:02 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Change component vue
+    
+    See merge request stsk/hrmis!145
+
+[33mcommit ef787cb1d099758ed8b8e498d13b6da96b28f526[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 17 07:47:36 2019 +0700
+
+    [IMP] Change component vue
+
+[33mcommit a5f34aa406927bf0a19d7fe0d776381f52ae0e4f[m
+Merge: 48e77499 c42f9f9e
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 16 02:27:33 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Export staff movement
+    
+    See merge request stsk/hrmis!144
+
+[33mcommit c42f9f9e84ba5a904ea3d050476976fdb93ba695[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 16 09:26:51 2019 +0700
+
+    [TASK] Export staff movement
+
+[33mcommit 48e7749972317e7b6d312223c9b4800c6f091afd[m
+Merge: fd6ba8f9 da1a44fe
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 16 01:28:14 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    .gitignore is now working
+    
+    See merge request stsk/hrmis!143
+
+[33mcommit da1a44fefbf15cc6ff41f1c291b5fde6dfa1020e[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 16 08:26:52 2019 +0700
+
+    .gitignore is now working
+
+[33mcommit fd6ba8f933f5a6b48cb5a063bcebd876dfb5d922[m
+Merge: 0715461e 7cc6c6fc
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 16 01:09:25 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [BUG] Filter staff movement by Date
+    
+    See merge request stsk/hrmis!142
+
+[33mcommit 7cc6c6fc3f78db1103976484ba8a393929c78e41[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 16 08:08:46 2019 +0700
+
+    [BUG] Filter staff movement by Date
+
+[33mcommit 0715461e59b20ee755f6e59c90453fa4fbf10047[m
+Merge: e2c452c7 936cfc22
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 13 09:27:49 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Update staff movement
+    
+    See merge request stsk/hrmis!141
+
+[33mcommit 936cfc22edb64b9da49836c39a75d8d3dc8b4a0d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 13 16:26:57 2019 +0700
+
+    [TASK] Update staff movement
+
+[33mcommit e2c452c7739a1dc06b34476d5c0f8ceea882d89f[m
+Merge: e1a0f868 30c1a963
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 13 06:23:54 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Report staff movement
+    
+    See merge request stsk/hrmis!140
+
+[33mcommit 30c1a963778cb1392f19478e101cb44ab5092296[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 13 13:22:56 2019 +0700
+
+    [TASK] Report staff movement
+
+[33mcommit e1a0f8681d69fbac45caf685cffc9c00d50fc48e[m
+Merge: 6478d798 24a75a19
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 13 02:23:17 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Change label and add git ignore
+    
+    See merge request stsk/hrmis!139
+
+[33mcommit 24a75a198d1070b251b017f6e716c9ca03d33b32[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 13 09:22:13 2019 +0700
+
+    [IMP] Change label and add git ignore
+
+[33mcommit 6478d7987eef93656047dccca571a9a673747374[m
+Merge: a801e727 5311cd3a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 10 06:57:51 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [BUG] Show information resign
+    
+    See merge request stsk/hrmis!138
+
+[33mcommit 5311cd3a4e3d022111b16d76fefa0bc193306e55[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 10 13:56:58 2019 +0700
+
+    [BUG] Show infomation resign
+
+[33mcommit a801e727b9ba2c2ceee5dfc55ec19e7eca3ce5af[m
+Merge: 74395b2d 839a136c
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 10 03:42:54 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Add Axios js
+    
+    See merge request stsk/hrmis!137
+
+[33mcommit 839a136c517b023c3b291e69aa9183fd8a303453[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 10 10:41:49 2019 +0700
+
+    [TASK] Add axios js
+
+[33mcommit 74395b2de524a138a1a3ce163e19900f1f3ef913[m
+Merge: a885565b 09576abe
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 10 01:10:39 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] List select filter staff movement
+    
+    See merge request stsk/hrmis!136
+
+[33mcommit 09576abe5350a718d281c38b189cc0775c9338c7[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 10 08:09:41 2019 +0700
+
+    [IMP] List select filter staff movement
+
+[33mcommit a885565b97af158ffe1a02246304337fa63152b4[m
+Merge: 367e15ab 6f317d42
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sun Sep 8 14:53:50 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Import staff movement
+    
+    See merge request stsk/hrmis!135
+
+[33mcommit 6f317d420220d4b83b176f0d579144f64c42e28d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sun Sep 8 21:52:47 2019 +0700
+
+    [IMP] Import staff movement
+
+[33mcommit 367e15ab8ea316d8329dff96b34da4df1e267e04[m
+Merge: 28b88110 fe8de986
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 6 15:47:51 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Add select2-js to option list
+    
+    See merge request stsk/hrmis!134
+
+[33mcommit fe8de98627e6cec834ed0eec1d7eab438fd64de8[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 6 22:43:48 2019 +0700
+
+    [UPDATE] Add select2-js to option list
+
+[33mcommit 28b8811024546783125d45bd532fc98c7c328d64[m
+Merge: b750dd92 e66b137e
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 6 09:00:44 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Validate input to unique data
+    
+    See merge request stsk/hrmis!133
+
+[33mcommit e66b137e6aac7c0b93543f42652c6c1009e8a282[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 6 15:59:45 2019 +0700
+
+    [TASK] Validate input to unique data
+
+[33mcommit b750dd92913b6a2a6cd5b90848e42b15d35732da[m
+Merge: d9c233ef 751f2ffb
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 6 08:11:37 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Prepare data by (order By)
+    
+    See merge request stsk/hrmis!132
+
+[33mcommit 751f2ffb91230c0b4397e2ab0099bd791e2dad1c[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 6 15:10:12 2019 +0700
+
+    [TASK] Prepare data by orderBy
+
+[33mcommit d9c233ef18db76cb538905c8ffd774f0c3a5593e[m
+Merge: 9c608347 3a53720b
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 6 07:20:24 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Show staff movement
+    
+    See merge request stsk/hrmis!131
+
+[33mcommit 3a53720bff202183fc930dc2f75f262aba651a0b[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 6 14:19:18 2019 +0700
+
+    [TASk] Show staff movement
+
+[33mcommit 9c6083474b1b917292757ef54d497d3e66975a75[m
+Merge: 3dea9fad cbcffad7
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 6 02:25:22 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Import staff movement
+    
+    See merge request stsk/hrmis!130
+
+[33mcommit cbcffad78b76a475b4594a5efeed513612cf15ac[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Sep 6 09:24:21 2019 +0700
+
+    [TASK] Import staff movement
+
+[33mcommit 3dea9fad16239a85e92cc1e8a505f38d2ffc6dad[m
+Merge: 04fe362f e2ee6d54
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 4 09:04:32 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [BUG] Staff resign
+    
+    See merge request stsk/hrmis!129
+
+[33mcommit e2ee6d54b06229ecfd93b1abdad1bf3528686117[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 4 16:02:04 2019 +0700
+
+    [BUG] Staff resign
+
+[33mcommit 04fe362f17d90e0971a73021a3fac5d30ed17771[m
+Merge: f9463fc2 97855716
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 4 04:25:48 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Report staff resign And Fixed bug filter data
+    
+    See merge request stsk/hrmis!128
+
+[33mcommit 97855716926b1e4a3d6c43bdd4b969ad797582cb[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Sep 4 11:23:46 2019 +0700
+
+    [TASK] Report staff resign And Fixed bug fillter
+
+[33mcommit f9463fc2335879475603e1c1cde954d3af9490a2[m
+Merge: f474337d 3f94e92a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 3 04:10:04 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff profile report
+    
+    See merge request stsk/hrmis!127
+
+[33mcommit 3f94e92a29ee60bc348a30ea7e0a19fe8a4bce3f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Sep 3 11:06:34 2019 +0700
+
+    [TASK] Staff profile report
+
+[33mcommit f474337d331e65b717bea822132aa0a65b0d4e06[m
+Merge: e65724d6 7beeaa8e
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 2 08:07:31 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Report show report staff profile
+    
+    See merge request stsk/hrmis!126
+
+[33mcommit 7beeaa8e68db9e474a2b10bf1b84c68f1012a21e[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Sep 2 15:03:11 2019 +0700
+
+    [TASK] Report show report staff profile
+
+[33mcommit e65724d658c29854b29722a92dda2caee8e3b629[m
+Merge: a15b3c62 cafd7523
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 30 04:45:30 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Show staff ID and prepare implementation report
+    
+    See merge request stsk/hrmis!125
+
+[33mcommit cafd75237851d3188cbfdc7685257c4b7550ab42[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 30 11:44:16 2019 +0700
+
+    [IMP] Show staff ID and prepare implementation report
+
+[33mcommit a15b3c620eaffb53c391b30a29091874a9555f1d[m
+Merge: a2d9d8be 07f1ce3f
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Aug 29 09:54:21 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Migrate staff movement
+    
+    See merge request stsk/hrmis!124
+
+[33mcommit 07f1ce3fb362f47925d8fc2999ac6d33a36ead32[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Aug 29 16:53:36 2019 +0700
+
+    [TASK] Migrate staff movement
+
+[33mcommit a2d9d8be9337e134a1360b58623612bf3775f941[m
+Merge: 41eb50c0 9c2d38bd
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Aug 29 09:26:09 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Migrate staff movement
+    
+    See merge request stsk/hrmis!123
+
+[33mcommit 9c2d38bd519cd76603d5278e6ba4850279be8ce3[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Aug 29 16:24:49 2019 +0700
+
+    [IMP] Migrate staff movement
+
+[33mcommit 41eb50c0aa55283fa8f0463d2561283096f28f1b[m
+Merge: 2b976c35 70338f77
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Aug 29 05:11:04 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [BUG] Staff resign
+    
+    See merge request stsk/hrmis!122
+
+[33mcommit 70338f770d03cef52b9f20f0376d21035e65787d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Aug 29 12:10:12 2019 +0700
+
+    [BUG] Staff resign
+
+[33mcommit 2b976c3531be3f3cc3d9de1142192d51530f5e7a[m
+Merge: 8645b503 737e1ad7
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Aug 28 07:21:28 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Spouse career
+    
+    See merge request stsk/hrmis!121
+
+[33mcommit 737e1ad761ea49c64ef65b2e31b6e874bc7dd19f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Aug 28 14:19:15 2019 +0700
+
+    [IMP] Spouse career
+
+[33mcommit 8645b50368d35c3b7e3fde63a8f6039826f173f0[m
+Merge: 48b87a03 89b66137
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 27 07:40:11 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Fix name of career KH not have
+    
+    See merge request stsk/hrmis!120
+
+[33mcommit 89b66137cefc88edcc219d75f3f783592761403f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 27 14:37:40 2019 +0700
+
+    Fix name of career KH not have
+
+[33mcommit 48b87a03ac50b4e56bbc7a5c11affd2960fe06bf[m
+Merge: 364149d9 f9d99ce6
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 27 06:30:19 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    FIX blank page
+    
+    See merge request stsk/hrmis!119
+
+[33mcommit f9d99ce643ba5af8d700b628d35de369c28dffa4[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 27 13:29:30 2019 +0700
+
+    FIX blank page
+
+[33mcommit 364149d9f736fb26ec9adc06ccc2196ffb8d3659[m
+Merge: 952481e4 09be0b5a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 27 03:44:39 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Staff movement
+    
+    See merge request stsk/hrmis!118
+
+[33mcommit 09be0b5aa0f46b165d795e5114d42d55aa84fe7e[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 27 10:43:08 2019 +0700
+
+    [IMP] Staff movement
+
+[33mcommit 952481e4c0092d011a8ef515be11e00f5dee4bf4[m
+Merge: bcb3b762 af2a4363
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 27 01:42:41 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Allow 10 charator
+    
+    See merge request stsk/hrmis!117
+
+[33mcommit af2a436314d9b147662d92685e0b6c14e5e24c46[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 27 08:41:37 2019 +0700
+
+    Allow 10 charator
+
+[33mcommit bcb3b762bea51d8a2eefeeda4c772559d8efd995[m
+Merge: d52137d6 e9efa156
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 27 01:28:25 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Develop
+    
+    See merge request stsk/hrmis!116
+
+[33mcommit e9efa1562c3d92f3eda1f8b8cb968682610bdb3a[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 27 08:27:08 2019 +0700
+
+    [IMP] Allow short name 10 charactorer
+
+[33mcommit e3653151749fd6544eefd0236296654a2413fb47[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Aug 26 11:30:06 2019 +0700
+
+    [IMP] find staff movement DI card
+
+[33mcommit d52137d6075e4f9a0b1e60c3218d7e8a74183d5a[m
+Merge: 21c96848 0fb8a3f0
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 23 07:20:31 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Staff movement filter.
+    
+    See merge request stsk/hrmis!115
+
+[33mcommit 0fb8a3f0b0452a8fca6b448887e5dba35be7cf14[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 23 14:19:02 2019 +0700
+
+    [IMP] Staff movement filter.
+
+[33mcommit 21c9684829831e243c0f20ccf30443ea4fdb63ec[m
+Merge: aa408b8f 13586251
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 23 04:55:07 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Pagination
+    
+    See merge request stsk/hrmis!114
+
+[33mcommit 13586251ad4bca65f6f47f60fbe0e4f8f3b2556d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 23 11:54:05 2019 +0700
+
+    [IMP] Pagination
+
+[33mcommit aa408b8f02324fad3de5218c7870fe17b3a4a69a[m
+Merge: 354850ac 79ced20c
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 23 04:03:55 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Catch all error push to message
+    
+    See merge request stsk/hrmis!113
+
+[33mcommit 79ced20c4fd544e87f4a6ac9194bbfd6ba014893[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 23 11:03:10 2019 +0700
+
+    [IMP] Catch all error push to message
+
+[33mcommit 354850aceb3266a52e83cceb27d9d954b3497eef[m
+Merge: a3f4837d 7a1f4640
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 23 02:59:02 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Last migrate data and feed back
+    
+    See merge request stsk/hrmis!112
+
+[33mcommit 7a1f464087b68edd59f3c80291739343f29ff041[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 23 09:57:06 2019 +0700
+
+    [IMP] Last migrate data and feed back
+
+[33mcommit a3f4837d8f40c647fd8f7ab0b91efac1f5552dcb[m
+Merge: 134c6a48 7f56bd6e
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Aug 21 08:52:40 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Remove button import staff
+    
+    See merge request stsk/hrmis!111
+
+[33mcommit 7f56bd6e919bbca8ae972d5ffd238df577a5c74f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Aug 21 15:52:12 2019 +0700
+
+    [IMP] Remove button import staff
+
+[33mcommit 134c6a48db4ff841d71b9c79fb1995288875204e[m
+Merge: 27467c78 5d80410a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 20 10:44:29 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [BUG] Fix blank spouse
+    
+    See merge request stsk/hrmis!110
+
+[33mcommit 5d80410a2d14e1766aa7c5c927af170c43802e1a[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 20 17:43:32 2019 +0700
+
+    [BUG] Fix blank spouse
+
+[33mcommit 27467c7804b6d34cf4b73161231700251b221e5c[m
+Merge: 55650540 642b1c01
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 20 08:13:26 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] import staff profile
+    
+    See merge request stsk/hrmis!109
+
+[33mcommit 642b1c01309f0880ca85492b717007d3774d5607[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Aug 20 15:12:30 2019 +0700
+
+    [IMP] import staff profile
+
+[33mcommit 556505409217ead806c772ea627d929a3e0f84a6[m
+Merge: c1a79068 26181b29
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Aug 19 11:20:45 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Remove menu import
+    
+    See merge request stsk/hrmis!108
+
+[33mcommit 26181b29d6e41a0483c768b8ac720e4674ece0bd[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Aug 19 18:19:34 2019 +0700
+
+    Remove menu import
+
+[33mcommit c1a790688c5ece856158eec0c4485807543c7dff[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Aug 19 16:41:55 2019 +0700
+
+    [TASK] Migrate data
+
+[33mcommit 7150a9bc96f5bbaae178e8909e610624f3d161b5[m
+Merge: d998632b ae5f4fb6
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 16 02:18:48 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Develop
+    
+    See merge request stsk/hrmis!107
+
+[33mcommit ae5f4fb6f6fe12c5d1f1d10389e44f508168301b[m
+Merge: 33431871 d998632b
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 16 09:17:13 2019 +0700
+
+    Merge branch 'master' of https://gitlab.com/stsk/hrmis into develop
+
+[33mcommit 3343187155213e506b188459fe3af8c7dc1a6ed1[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 16 09:16:37 2019 +0700
+
+    [BUG] Wrong gender view
+
+[33mcommit d998632ba693713355660576f5ce59e24522c61a[m
+Merge: 61a009c2 fee77930
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Aug 15 16:21:37 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Bug data missing when view data
+    
+    See merge request stsk/hrmis!106
+
+[33mcommit fee77930468613446c18dc86c6677e38d8c29a21[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Aug 15 23:19:14 2019 +0700
+
+    [IMP] Bug data missing when view data
+
+[33mcommit 61a009c228399408f10342a0b882fe9ca2c5d3e5[m
+Merge: a693b45f f8597e24
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Aug 15 08:47:49 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Migrate data
+    
+    See merge request stsk/hrmis!105
+
+[33mcommit f8597e24ec829d0b65651210df54e883e7898909[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Aug 15 15:46:00 2019 +0700
+
+    [TASK] Migrate data
+
+[33mcommit a693b45f9c97a1df0ca4e5878728ca0ae6651922[m
+Merge: 794f36a6 e74fee1f
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 9 03:22:03 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Import staff profile
+    
+    See merge request stsk/hrmis!104
+
+[33mcommit e74fee1f8f0c205e26a1ebc708dfcfc98e5929db[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Aug 9 10:20:36 2019 +0700
+
+    [TASK] Import staff profile
+
+[33mcommit 794f36a6846c0487fc143706ae44694be3b06cdf[m
+Merge: df55c968 9c1c5a5f
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sun Aug 4 06:59:50 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    IMP interface
+    
+    See merge request stsk/hrmis!103
+
+[33mcommit 9c1c5a5f9310cc7ecee7b07baa9356a4840cfff6[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sun Aug 4 13:57:34 2019 +0700
+
+    IMP interface
+
+[33mcommit df55c96833d2e73c7b46b040805c312a8d2b932c[m
+Merge: d3f4d041 71fcf820
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 31 04:03:28 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Hide report menu for production
+    
+    See merge request stsk/hrmis!102
+
+[33mcommit 71fcf82074133246ae6330b08de79e5544a42e8d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 31 11:01:19 2019 +0700
+
+    Hide report menu for porduction
+
+[33mcommit d3f4d041bd9ebf0939a0d3350cf482144d219e53[m
+Merge: f06c506c eae5960e
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 31 02:16:39 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Interface
+    
+    See merge request stsk/hrmis!101
+
+[33mcommit eae5960e225c0be38c06b150d0f6eebf6801b4a1[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 31 09:10:30 2019 +0700
+
+    [UPDATE] Interface
+
+[33mcommit f06c506ce80913270917bc9369a2cd999565c1b5[m
+Merge: a2fe83fa 4a1186d7
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 30 15:39:27 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    UPDATE
+    
+    See merge request stsk/hrmis!100
+
+[33mcommit 4a1186d7fb85371bc485c2acc8786b00eae07a0e[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 30 22:38:00 2019 +0700
+
+    UPDATE
+
+[33mcommit a2fe83faa1a476ebcf051061f6212047c6f560d4[m
+Merge: 259c2051 abd1cac2
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 30 04:49:02 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Margin button
+    
+    See merge request stsk/hrmis!99
+
+[33mcommit abd1cac2e369456b3391e83f2e24db5cfc9cb9f7[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 30 11:48:06 2019 +0700
+
+    [UPDATE] Margin button
+
+[33mcommit 259c2051c8e8a5b0ec824c6eea197dcba09ce3ff[m
+Merge: 994e0cf4 f8f2c902
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 30 04:23:42 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Interface UI
+    
+    See merge request stsk/hrmis!98
+
+[33mcommit f8f2c9020b935d9588ef8222bfcb62d1ae2830f6[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 30 11:22:40 2019 +0700
+
+    [UPDATE] Interface UI
+
+[33mcommit 994e0cf4af1ecd046b2fe43882ca72082dbbc26f[m
+Merge: bcec1fd7 affda63a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 30 03:48:40 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Fast
+    
+    See merge request stsk/hrmis!97
+
+[33mcommit affda63a4a74a59134231f66ff51c41ecb29c0c4[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 30 10:47:50 2019 +0700
+
+    [UPDATE] Fast
+
+[33mcommit bcec1fd7d4fb42543eb6e77691d81d99a247780d[m
+Merge: fd4ab3f7 3281633e
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 30 03:32:15 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Develop
+    
+    See merge request stsk/hrmis!96
+
+[33mcommit 3281633e4cc58dcc9a14fd8cf6cbcbec4162b1b2[m
+Merge: b4b4b25f ee150be8
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 30 10:21:36 2019 +0700
+
+    Merge branch 'develop' of https://gitlab.com/stsk/hrmis into develop
+
+[33mcommit b4b4b25fdd334bf2e4a7780ed404f3bc2b317cac[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 30 10:14:21 2019 +0700
+
+    [FIX & IMP] View and Encrypt code
+
+[33mcommit 1bef2bb04a66475e5b69bd84da2087dc704a3f87[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 23:53:39 2019 +0700
+
+    [UPDATE] Staff information
+
+[33mcommit ee150be8e54db33e27d2f1d1e82c9b3e95efc5cd[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 23:53:39 2019 +0700
+
+    [UPDATE] Staff information
+
+[33mcommit fd4ab3f73517f6fe4470f88647e9e5c2219e8212[m
+Merge: 3d7aa137 2cabeea1
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 09:24:51 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Remove prevent default submit form when click button save
+    
+    See merge request stsk/hrmis!95
+
+[33mcommit 2cabeea1d42de528c380ddb92519d9e2990ef55a[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 16:24:31 2019 +0700
+
+    minify
+
+[33mcommit 8926edc47b339b44c97c0f7531f6818e0a4b5235[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 16:22:59 2019 +0700
+
+    Remove prevent default submit form when click button save
+
+[33mcommit 3d7aa137155056d78d07f908f4250f718f9cc8cc[m
+Merge: 5950ac6e c0ab1d60
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 08:53:18 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Change use local Storage to Session Storage
+    
+    See merge request stsk/hrmis!94
+
+[33mcommit c0ab1d60b942241b96f4b3b62f326d711c8681e4[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 15:52:05 2019 +0700
+
+    Change use localStorage to SessionStorage
+
+[33mcommit 5950ac6e53582237477820b6ae1c66d14e433931[m
+Merge: 65bfd1e6 955a4561
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 08:39:59 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Remove image URL
+    
+    See merge request stsk/hrmis!93
+
+[33mcommit 955a4561f66b83034eef76418ca08f64872c77da[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 15:38:50 2019 +0700
+
+    [IMP] Remove imaage url
+
+[33mcommit 65bfd1e6c9ff863b23b8e352e39d8a3e4b599297[m
+Merge: 9d23349e 279854e1
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 08:19:07 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Add title
+    
+    See merge request stsk/hrmis!92
+
+[33mcommit 279854e1a29b3edda4dc14179abd15270cb0cfaa[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 15:18:32 2019 +0700
+
+    Add title
+
+[33mcommit 9d23349e4213f45bd19bbec1686432b161296336[m
+Merge: c16a7f07 6617f57e
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 08:15:50 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Feedback
+    
+    See merge request stsk/hrmis!91
+
+[33mcommit 6617f57eb2f821aff6cbec98d2334aa521d118f6[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 15:14:43 2019 +0700
+
+    [UPDATE] Feedback
+
+[33mcommit c16a7f07823c7cb368749c7f0d48d3c682cca21a[m
+Merge: ded65e4c d61b3900
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 11:40:56 2019 +0700
+
+    Merge branch 'master' of https://gitlab.com/stsk/hrmis
+
+[33mcommit ded65e4c5f866d2d97f61233c1f4ebbfea842b9a[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 11:40:08 2019 +0700
+
+    [IMP] Staff educationi
+
+[33mcommit d61b3900b27d38f3984511a36d9280cb7d47a033[m
+Merge: 1e440ba3 e7491e7b
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 03:02:22 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Remove maxlangth in bank account
+    
+    See merge request stsk/hrmis!90
+
+[33mcommit e7491e7b1ff2dac22c1e5a23ea1d27f99e66493c[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 10:01:34 2019 +0700
+
+    Remove maxlangth in bank account
+
+[33mcommit 1e440ba398f58758fe74df74834871656e8db2d6[m
+Merge: bd3f679e 68fae087
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 02:45:53 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Minify js and remove maximum length in saff personal info form
+    
+    See merge request stsk/hrmis!89
+
+[33mcommit 68fae087393a494adaf513b84359118196a35435[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 09:44:42 2019 +0700
+
+    [IMP] Minified js and remove maximun length in saff personal info form
+
+[33mcommit bd3f679ec301ca5c6cb951b46043ad54d339995e[m
+Merge: 4e4af6d6 c00afd6c
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 01:58:49 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [BUG] Missing unity.js
+    
+    See merge request stsk/hrmis!88
+
+[33mcommit c00afd6c19ba2cd31c1761c659c20bbcb5adb10a[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 29 08:57:43 2019 +0700
+
+    [BUG] Missing unity.js
+
+[33mcommit 4e4af6d6a49765ed2463b90ed6dd0f4726299df7[m
+Merge: 1faed89d 5a5d5793
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sun Jul 28 15:18:57 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Performance
+    
+    See merge request stsk/hrmis!87
+
+[33mcommit 5a5d57935047d050dfc616dc0e2998fdba09774b[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sun Jul 28 22:14:10 2019 +0700
+
+    [IMP] Performance
+
+[33mcommit c10aff80a1c6d4650ca219fa1aed5cc2ddb3bf91[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sat Jul 27 21:52:56 2019 +0700
+
+    [IMP] Up sped of performance
+
+[33mcommit 1faed89d836008baa0b99843d9f7ff45317ee759[m
+Merge: b4225ddd 07e62f9f
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 26 09:14:11 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Develop
+    
+    See merge request stsk/hrmis!86
+
+[33mcommit 07e62f9feccd7f457565b7726767a5ba24533cbe[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 26 16:08:13 2019 +0700
+
+    [TASK] Fixed BUG and Improvement
+
+[33mcommit 1e4bbd9f12a431b338379d7ff8a33ba2e87fffe2[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jul 25 09:56:35 2019 +0700
+
+    [TASK] Lack of information
+
+[33mcommit b4225ddd5273105bf323040e64d25b76533d01d2[m
+Merge: 85303fe1 64254857
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 24 10:15:08 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    change all to get
+    
+    See merge request stsk/hrmis!85
+
+[33mcommit 6425485780889794005eddc2eba04416e6bfc57c[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 24 17:14:29 2019 +0700
+
+    change all to get
+
+[33mcommit 85303fe18993adc3c557f1ab5f134b34d7b9ded3[m
+Merge: 760f86a4 efd2f367
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 24 10:10:34 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Sear and orderBy
+    
+    See merge request stsk/hrmis!84
+
+[33mcommit efd2f367adeee5948187b96405ecef3a387076d1[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 24 17:07:23 2019 +0700
+
+    [IMP] Sear and orderBy
+
+[33mcommit 760f86a4e0f7aeb86cd00ec333e9c542d5258ee6[m
+Merge: dfcc4c22 dc0fdd84
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 24 10:09:46 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    report
+    
+    See merge request stsk/hrmis!83
+
+[33mcommit dc0fdd84d004ef316aa702a125839c6763052c14[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 24 16:12:03 2019 +0700
+
+    report
+
+[33mcommit dfcc4c22630194fcb86fde31aa93f04b55cd43e0[m
+Merge: d2ddaa0a cc5f7321
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 24 07:04:10 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Report staff profile
+    
+    See merge request stsk/hrmis!82
+
+[33mcommit cc5f7321026c18c88ed9cada61a9e0760ad5dc11[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 24 14:03:11 2019 +0700
+
+    [TASK] Report staff profile
+
+[33mcommit d2ddaa0acb7c9a57c0f38577adc2636d5164f1e5[m
+Merge: 6bddfa7d 1ddd4d4c
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 23 16:58:30 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Fixed feedback from Mr. Sombo
+    
+    See merge request stsk/hrmis!81
+
+[33mcommit 1ddd4d4c09193a503153b2b1ed111a2b86a181ad[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 23 23:57:22 2019 +0700
+
+    [IMP] Fixed feedback from Mr. Sombo
+
+[33mcommit 6bddfa7d0d9f7cc669053986677f404b49ccb3d7[m
+Merge: e9c6d62a b142834e
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 23 13:39:56 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Fixed feedback from Mr. Sombo
+    
+    See merge request stsk/hrmis!80
+
+[33mcommit b142834e1a536675cb482cb362e535b518e3c5c9[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 23 20:38:11 2019 +0700
+
+    [IMP] Fixed feedback from Mr. Sombo
+
+[33mcommit e5d09cc4c9299bb02bc6643d301a08e4f5a0ede4[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 23 19:20:26 2019 +0700
+
+    [IMP] Fixed feedback from Mr. Sombo
+
+[33mcommit e9c6d62af132d25b87da9d3421e274249f0ba620[m
+Merge: c6444691 8d2d172f
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 22 10:10:56 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] View report staff profile
+    
+    See merge request stsk/hrmis!79
+
+[33mcommit 8d2d172fc183fa527a96f02002f29577f66afb75[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 22 17:10:11 2019 +0700
+
+    [TASK] View report staff profile
+
+[33mcommit c64446915a26f26784917d9575d6a6df507fc45e[m
+Merge: cbc8cac4 2d176f82
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 22 05:04:08 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Update interface form login and set favorite icon.
+    
+    See merge request stsk/hrmis!78
+
+[33mcommit 2d176f82c529ff1d1208c5f916a864794933cd27[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 22 12:02:23 2019 +0700
+
+    [IMP] Update interface form login and set favorite icon.
+
+[33mcommit cbc8cac4d9403dd342e1cd12eb2ac452d6377135[m
+Merge: 7fc8d493 3bd41a9b
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 22 00:39:30 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Report staff profile
+    
+    See merge request stsk/hrmis!77
+
+[33mcommit 3bd41a9b087b34a6b524ab08a5a643c7f649797c[m
+Author: Ratana <khunratana168.edu@gmail.com>
+Date:   Sun Jul 21 22:14:37 2019 +0700
+
+    [TASK] Report staff profile
+
+[33mcommit 7fc8d493ce71943a1cc4018dcb1b8b022dd12516[m
+Merge: bc988b41 8f69d7b9
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 19 10:08:15 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Report staff profile
+    
+    See merge request stsk/hrmis!76
+
+[33mcommit 8f69d7b9aeba89f108370bfd9eed671ff3010a00[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 19 17:07:33 2019 +0700
+
+    [TASK] Report staff profile
+
+[33mcommit bc988b4100637a7a2be5a8984a8b73ef901f4659[m
+Merge: e69abb09 f4b31887
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 19 03:08:50 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Filter staff movement
+    
+    See merge request stsk/hrmis!75
+
+[33mcommit f4b318878e80d6a25b4333193ea7ec870c471944[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 19 10:07:59 2019 +0700
+
+    [TASK] Filter staff mevement
+
+[33mcommit e69abb09a6b69d154214309ec2cde5a4377b3d6b[m
+Merge: 39e24d28 44c9a4f1
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 19 02:49:17 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Filter staff resign
+    
+    See merge request stsk/hrmis!74
+
+[33mcommit 44c9a4f19b28116b58d1801c3605a4d5077b596f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 19 09:47:05 2019 +0700
+
+    [TASK] Filter staf resign
+
+[33mcommit 39e24d28a0cb8c715047bfc8e6d401ee648a8e62[m
+Merge: 62738ec6 dce34769
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jul 18 03:41:53 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Staff resign info
+    
+    See merge request stsk/hrmis!73
+
+[33mcommit dce34769f1701a75a4fde3c6ef80ab69b029ca1f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jul 18 10:40:05 2019 +0700
+
+    [UPDATE] Staff resign info
+
+[33mcommit 62738ec614c35d507167e9463f13ac524f975a5d[m
+Merge: 84307aac c70a335f
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jul 18 01:51:02 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Dashboard
+    
+    See merge request stsk/hrmis!72
+
+[33mcommit c70a335f7c8ce500d0091454f01951128b87311f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jul 18 08:47:07 2019 +0700
+
+    [TASK] Dashboard
+
+[33mcommit 84307aac5da060c27dc6696a5d1457c3ac2d4ff8[m
+Merge: 8170a91b 3f4e2d58
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 17 09:41:08 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Update staff movement
+    
+    See merge request stsk/hrmis!71
+
+[33mcommit 3f4e2d586ae338b90382f264c239f4eb08f34d03[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 17 16:40:09 2019 +0700
+
+    [TASK] Update staff movement
+
+[33mcommit 8170a91b0a01bd83a52308204c08bc474791f0f4[m
+Merge: 4b3f4c1a 5100d8a8
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 17 01:55:16 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] page loading
+    
+    See merge request stsk/hrmis!70
+
+[33mcommit 5100d8a820f678c4265951b0cd1a3629b83ea29d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 17 08:53:49 2019 +0700
+
+    [IMP] page loading
+
+[33mcommit 4b3f4c1a4e71e82359943473403cc6cf060f19f8[m
+Merge: 436fde0a ef120ccd
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 16 09:09:55 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff movement
+    
+    See merge request stsk/hrmis!69
+
+[33mcommit ef120ccd42a768e860922147ce380fb0d9ff8849[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 16 16:08:52 2019 +0700
+
+    [TASK] Staff movement
+
+[33mcommit 436fde0a357d9afab5bfbc1a422074be4d78836c[m
+Merge: b2a5c5f0 e715eebd
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 16 02:35:27 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff movement
+    
+    See merge request stsk/hrmis!68
+
+[33mcommit e715eebdffbbef2ca4862de7ba14b69d34bfa507[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jul 16 09:34:22 2019 +0700
+
+    [TASK] Staff movement
+
+[33mcommit b2a5c5f0314b135cc3ebe1f27c6082f884c006b3[m
+Merge: 71835945 66deccb0
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 12 10:19:43 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Fix use spatie permssion
+    
+    See merge request stsk/hrmis!67
+
+[33mcommit 66deccb0ecf199d09cbefb02a49de7bd90c2f82c[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 12 17:18:49 2019 +0700
+
+    [IMP] Fix use spatie permssion
+
+[33mcommit 71835945195c47d1a242902f1a819358758b48e6[m
+Merge: aabae06e d1539a71
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 12 10:13:02 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [RM] Remove permission
+    
+    See merge request stsk/hrmis!66
+
+[33mcommit d1539a715454060903a49519a77321dfad690cff[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 12 17:12:05 2019 +0700
+
+    [RM] Remove permission
+
+[33mcommit aabae06e011f2e0a3024bb89eab9f934d642ec3a[m
+Merge: c7fcb5bb f6af7d70
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 12 10:01:14 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [IMP] Update staff resign
+    
+    See merge request stsk/hrmis!65
+
+[33mcommit f6af7d70da4c110a56cd07f495208be3d9eaa45a[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 12 16:59:49 2019 +0700
+
+    [IMP] Update staff resign
+
+[33mcommit c7fcb5bbd8984caef0dfdd6dabe62b04493a151b[m
+Merge: 466e1fb2 a19f78aaa
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jul 11 17:45:26 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Staff resign
+    
+    See merge request stsk/hrmis!64
+
+[33mcommit a19f78aaa9810f0e3fe0766d2aa15ba3130b08aa[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jul 12 00:44:25 2019 +0700
+
+    [UPDATE] Staff resign
+
+[33mcommit 466e1fb2b0c7770827493f522ee80cc12b9ff3b6[m
+Merge: dec18c33 830869f7
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jul 11 09:30:26 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff reject
+    
+    See merge request stsk/hrmis!63
+
+[33mcommit 830869f70205c72c7d733115540b34953d6967a8[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jul 11 16:29:16 2019 +0700
+
+    [TASK] Staff reject
+
+[33mcommit dec18c3300cd2c8353e4d1ebedc519c6b7fc26e4[m
+Merge: c295932a e0732293
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 10 09:33:59 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff movement
+    
+    See merge request stsk/hrmis!62
+
+[33mcommit e073229342dce9e3a6cfbd2a577758135b6dd7f8[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jul 10 16:31:54 2019 +0700
+
+    [TASK] Staff movement
+
+[33mcommit c295932a3e2a19c57f35ad4d6bf5b83cc1692d82[m
+Merge: 24874975 9cd8283a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 8 09:55:10 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Fixed bug
+    
+    See merge request stsk/hrmis!61
+
+[33mcommit 9cd8283a4c26d41925f6013ea1a88f512937f099[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 8 16:54:09 2019 +0700
+
+    [TASK] Fixed bug
+
+[33mcommit 24874975224d88cddaedf090bd84878e52ef4a23[m
+Merge: 49f82384 3b41e16f
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 8 08:55:52 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff resign
+    
+    See merge request stsk/hrmis!60
+
+[33mcommit 3b41e16f44abe955869f083796c716e875368bc5[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 8 15:54:04 2019 +0700
+
+    [TASK] Staff resign
+
+[33mcommit 49f82384fa4c57da936b65459e1f191fa16f2397[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jul 4 11:44:04 2019 +0700
+
+    [TASK] Staff resign
+
+[33mcommit e58ec3fd73c6c7833dc8c91cb9869bd4b0adc1a9[m
+Merge: 96b4065b 1c18ab28
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 1 09:20:21 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] View staff information
+    
+    See merge request stsk/hrmis!59
+
+[33mcommit 1c18ab28ae8fea209786e5572d13895762c9521d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jul 1 16:14:21 2019 +0700
+
+    [TASK] View staff informationi
+
+[33mcommit 96b4065b90b7ee51b5da36c82b82494fe6e22daf[m
+Merge: f8127ed2 9b193629
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 28 09:17:17 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Create db seeder
+    
+    See merge request stsk/hrmis!58
+
+[33mcommit 9b1936292dda3d4a797a35fc8a3b898f69ef382d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 28 16:15:50 2019 +0700
+
+    [TASK] Create db seeder
+
+[33mcommit f8127ed25bb18bde448cc89779352fbd07614627[m
+Merge: ed154e79 1f9c2c96
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 28 01:09:35 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Search staff profile
+    
+    See merge request stsk/hrmis!57
+
+[33mcommit 1f9c2c96061b40273313b04992462f8670547365[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 28 07:59:32 2019 +0700
+
+    [TASK] Search staff profile
+
+[33mcommit ed154e7936b7e9d3bff7dd00f065b0d86f2202e0[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 27 14:34:22 2019 +0700
+
+    [TASK] show staff
+
+[33mcommit 9cc69bac15f1c163af240621e014759d60e28983[m
+Merge: c70f121c dec60c1c
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 27 01:39:01 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Staff profile
+    
+    See merge request stsk/hrmis!56
+
+[33mcommit dec60c1c77a78a5bf4d4a3db86c87491064fdb62[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 27 08:37:55 2019 +0700
+
+    Staff profile
+
+[33mcommit c70f121c636397bfa5d7fd3812469af05fa5d660[m
+Merge: 0584f8de 41b7adc9
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 26 16:56:31 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Staff profile
+    
+    See merge request stsk/hrmis!55
+
+[33mcommit 41b7adc9904705c296a3208226a2613c7bac9fb1[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 26 23:55:09 2019 +0700
+
+    [UPDATE] Staff profile
+
+[33mcommit 0584f8de5bb5afd59ad35083a44d0cb71339cf33[m
+Merge: 613afccf 1082cb20
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 26 10:11:49 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Guarantor
+    
+    See merge request stsk/hrmis!54
+
+[33mcommit 1082cb20e5ab59aeb7d9091fac5ebd710b8dbfc0[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 26 17:09:45 2019 +0700
+
+    [UPDATE] Guarantor
+
+[33mcommit 613afccfeeea8282accf4bcd89a8aa6cd49f75c9[m
+Merge: 9a840a1e 123fa6d7
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 26 08:02:14 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Spouse info
+    
+    See merge request stsk/hrmis!53
+
+[33mcommit 123fa6d700ee6a89f8c1474b0232036a2ed15578[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 26 15:01:29 2019 +0700
+
+    [UPDATE] Spouse info
+
+[33mcommit 9a840a1e8b5b5081421c47bc7e3ff60109826b59[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Wed Jun 26 14:14:52 2019 +0700
+
+    [IMP] Hide create resign staff btn
+
+[33mcommit 88801d36fe64fbc80f054c9481f80294bb006a67[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Wed Jun 26 11:19:52 2019 +0700
+
+    [IMP] Update Staff document
+
+[33mcommit 7571762259a5b77ea1f05bb5964b502810817b9a[m
+Merge: 855ff959 6c79ad88
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 26 01:13:46 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Experience
+    
+    See merge request stsk/hrmis!52
+
+[33mcommit 6c79ad883871338c069372a3e994bf53ca7bc48f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 26 08:12:50 2019 +0700
+
+    [UPDATE] Experience
+
+[33mcommit 855ff9595972915c66b41bea2f678ae0c988581b[m
+Merge: 13a727ec 51307263
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 25 10:08:14 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Training course
+    
+    See merge request stsk/hrmis!51
+
+[33mcommit 513072630e2ce7264d60468bf29edaa09af32fb4[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 25 17:06:21 2019 +0700
+
+    [UPDATE] Training course
+
+[33mcommit 13a727eceabf4fa52dad4a5a9ae403042d88c6bd[m
+Merge: b023c071 1ba02f15
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 25 09:01:49 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Education
+    
+    See merge request stsk/hrmis!50
+
+[33mcommit 1ba02f151aaa22171cfe315d30a4861d4b1065e0[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 25 15:57:39 2019 +0700
+
+    [UPDATE] Educationi
+
+[33mcommit b023c0718bdf8ac62099b0cafbab098b3bd9850b[m
+Merge: 1d6fe27c c74d03ea
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 25 08:00:42 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [UPDATE] Change interface personal info
+    
+    See merge request stsk/hrmis!49
+
+[33mcommit c74d03eab14d2624ea91f71fe54efa45d252a76b[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 25 14:56:55 2019 +0700
+
+    [UPDATE] Change interface personal info
+
+[33mcommit 1d6fe27cba4f1f80ecbe0d64c36c78b8bbc4c951[m
+Merge: 51337b41 0b0bd00e
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 25 06:49:03 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    view staff not yet complete
+    
+    See merge request stsk/hrmis!48
+
+[33mcommit 0b0bd00e45d1ef7d0b237e391ba12950a21fe00d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 25 13:43:52 2019 +0700
+
+    view staff not yet complete
+
+[33mcommit 51337b4176a8e46b98ad688c44f759cdd0ecd573[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Mon Jun 24 17:10:23 2019 +0700
+
+    [TASK] Implement delete staff documentation
+
+[33mcommit 6dd47e0905ccd42419872c8fad2e47abce38dddc[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Mon Jun 24 16:06:34 2019 +0700
+
+    [TASK] Implement staff documentation
+
+[33mcommit c643c97304cee5a0f2d93157205d1b738ad7e93f[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Mon Jun 24 11:10:01 2019 +0700
+
+    [TASK] Implement staff resign
+
+[33mcommit bc0e09fa3986852f94a184ae3a0058ba72ac5e21[m
+Merge: 798c73bf bbaef864
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 24 04:41:38 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Fixed count
+    
+    See merge request stsk/hrmis!47
+
+[33mcommit bbaef864501c6abaf9dd9a63c526f2b12fd56054[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 24 11:41:09 2019 +0700
+
+    Fixed count
+
+[33mcommit 798c73bf64c3ca1ee30abcd70cd70efe38bfe5bd[m
+Merge: 2bcda10b 8ee0836c
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 24 04:24:10 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Fixed
+    
+    See merge request stsk/hrmis!46
+
+[33mcommit 8ee0836c4f87dc3cc232563250d8c6105ab5b5d5[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 24 11:23:10 2019 +0700
+
+    Fixed
+
+[33mcommit 2bcda10bede89dc6d6822dde77cebed561277d88[m
+Merge: bbbe8ae1 059e0b02
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 24 04:19:26 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Change operator
+    
+    See merge request stsk/hrmis!45
+
+[33mcommit 059e0b0235b91ffb11bf21c4562c64bbf8c1594d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 24 11:18:50 2019 +0700
+
+    Change operator
+
+[33mcommit bbbe8ae1723c0b56d964b8807455d4fedbae56f0[m
+Merge: ff02c97e 30981015
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 24 03:53:37 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Fixed unknown local storage
+    
+    See merge request stsk/hrmis!44
+
+[33mcommit 309810159eaae7efcd7a32c1b8bf45b4aac7f44a[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 24 10:52:16 2019 +0700
+
+    Fixed unknow localstorage
+
+[33mcommit ff02c97eb47ac9c40f2f89fe8afe27ab24cd11b2[m
+Merge: 5cd7139b 46aee1de
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 24 02:47:09 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Staff document
+    
+    See merge request stsk/hrmis!43
+
+[33mcommit 46aee1de500413d4b218a97012c392087610e4c0[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 24 09:46:23 2019 +0700
+
+    Staff document
+
+[33mcommit 5cd7139bc8d20ae7a8d77bc3a65f742de50555d0[m
+Merge: 25ad9f10 d6b97a64
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 21 10:19:49 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Edit staff information
+    
+    See merge request stsk/hrmis!42
+
+[33mcommit d6b97a64490471e5b7207d72b3d774a02bd46564[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 21 17:18:43 2019 +0700
+
+    [TASK] Edit staff information
+
+[33mcommit 25ad9f106e3a99225d53f347a4113ea089d51438[m
+Merge: 14b69dda e9754606
+Author: kakada <neangkakada@gmail.com>
+Date:   Fri Jun 21 11:13:30 2019 +0700
+
+    Merge branch 'master' of gitlab.com:stsk/hrmis
+
+[33mcommit 14b69dda2a2ae38d352241476cd486fc26346990[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Fri Jun 21 11:09:26 2019 +0700
+
+    [IMP] Ignore .httaccess
+
+[33mcommit e9754606aafcf94d2fc82af14e7844d13705ef61[m
+Merge: 77fef029 1c40e9f0
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 20 09:54:49 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    add read only to dob
+    
+    See merge request stsk/hrmis!41
+
+[33mcommit 1c40e9f031900cbe9e7c3adbcde1cafd184b6ef2[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 20 16:53:45 2019 +0700
+
+    add readonly to dob
+
+[33mcommit 77fef0294f1ee31d24712afbe771f22c00fbe929[m
+Merge: 7f173426 ec593c9a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 20 09:31:07 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Fixed error form when validation fails
+    
+    See merge request stsk/hrmis!40
+
+[33mcommit ec593c9a1fb106b025ec801147ef2d95dc66d257[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 20 16:29:47 2019 +0700
+
+    Fixed error form when validation fails
+
+[33mcommit 7f173426242fce63b964e1d61968da7ba5c088db[m
+Merge: 675f0cfe 86d503fa
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 20 07:53:53 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Change layout some form
+    
+    See merge request stsk/hrmis!39
+
+[33mcommit 86d503fa195d866e846be46c1e8d3aec7b24c62c[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 20 14:52:56 2019 +0700
+
+    Change layout some form
+
+[33mcommit 675f0cfe3b61a00b7d7efa5b168dbf04b945e3d1[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Thu Jun 20 14:28:54 2019 +0700
+
+    [TASK] Update .htaccess
+
+[33mcommit 9bf8c59b621f49a8ec78a9d882cbaccb45617f31[m
+Merge: 188d049c 105b4b85
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 20 06:37:24 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Fixed error breadcrumb
+    
+    See merge request stsk/hrmis!38
+
+[33mcommit 105b4b8550cf7e9fe01cac982a4ef1a13b3c1249[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 20 13:36:10 2019 +0700
+
+    Fixed error breadcrum
+
+[33mcommit 188d049cd4fac4d857c604c3eb9714596d0500da[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Thu Jun 20 11:16:36 2019 +0700
+
+    [IMP] Update readme
+
+[33mcommit c6d00bb3865e19757ff9e929d1702f27d4222fa0[m
+Merge: 9d1e4b51 c96ef6f8
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 20 04:10:38 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Fixed any error
+    
+    See merge request stsk/hrmis!37
+
+[33mcommit c96ef6f88e7496b8d910b6863af03ae7f8c07b53[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 20 11:09:39 2019 +0700
+
+    Fixed any error
+
+[33mcommit 9d1e4b519f3a7d7422ca0a864ea7adf9642387e2[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Thu Jun 20 08:32:40 2019 +0700
+
+    [TASK] Implement staff resign
+
+[33mcommit adbb1db517f85661ee40ead777011714a84fdea6[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Wed Jun 19 09:03:14 2019 +0700
+
+    [TASK] Implement staff resign
+
+[33mcommit 7d6264356b7c9a844524dca51fe789724b20de3c[m
+Merge: d14b0019 8a8dd42a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 19 06:02:24 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Staff upload document
+    
+    See merge request stsk/hrmis!36
+
+[33mcommit 8a8dd42a436a1c3d794592c1d39ababd8c8fd9e9[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 19 12:57:33 2019 +0700
+
+    Staff upload document
+
+[33mcommit d14b001997f9b50d988d367dc645188ac879c949[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Wed Jun 19 08:04:44 2019 +0700
+
+    [IMP] Update UI of staff profile
+
+[33mcommit 3ebc235a9d271a2a6aff3262ba416669ce8629be[m
+Merge: 74be0dab 32c4ca0f
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 17 08:39:23 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Staff profile
+    
+    See merge request stsk/hrmis!35
+
+[33mcommit 32c4ca0fa04e5a6323f57afa05c487ea3e87c621[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 17 15:38:32 2019 +0700
+
+    Staff profile
+
+[33mcommit 74be0dabdef17cf15556a7ec02af1d9471f0e5d3[m
+Merge: 7de27961 5aed901c
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 17 06:42:32 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Staff guarantor
+    
+    See merge request stsk/hrmis!34
+
+[33mcommit 5aed901cb59e1b9f1641b9a820b1de58c477c75a[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 17 13:41:53 2019 +0700
+
+    Staff guarantor
+
+[33mcommit 7de27961861d4ba20978ae32b71c1d6aa9a101db[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Mon Jun 17 11:38:38 2019 +0700
+
+    [IMP] Update form download
+
+[33mcommit cd155f9287776ed1e6c7f4a376f6c5292b1d8477[m
+Merge: 3f4c8414 3e874e59
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 14 08:55:27 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff spouse information
+    
+    See merge request stsk/hrmis!33
+
+[33mcommit 3e874e59b9c1d6366a1420e1d3b4fd7109caa9a9[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 14 15:54:04 2019 +0700
+
+    [TASK] Staff spouse information
+
+[33mcommit 3f4c8414dd2a671f9f2caa22c5fdf0eb5f08ab33[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Fri Jun 14 15:23:11 2019 +0700
+
+    [TASK] Implement Form Download
+
+[33mcommit a3d19058b94e42b3e1ecbd8cffbf2ed55866e997[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Thu Jun 13 17:31:31 2019 +0700
+
+    [BUGFIX] Fix delete btn
+
+[33mcommit fc0efb0ade401030b9b36e41866c1b3388bf2cdc[m
+Merge: 936c5f7d 3da7da0d
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 14 06:59:29 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff work experience
+    
+    See merge request stsk/hrmis!32
+
+[33mcommit 3da7da0d6b3b1dd62995da1f7deb4d309fadec6b[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 14 13:57:20 2019 +0700
+
+    [TASK] Staff work experience
+
+[33mcommit 936c5f7d1434ce2383a825692d3c9aeb75fd07b3[m
+Merge: b9b15c9a e16ea32a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 14 03:08:16 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Staff Training Course
+    
+    See merge request stsk/hrmis!31
+
+[33mcommit e16ea32a391610c9039d3e35f2f66f29c5293e68[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Jun 14 10:06:55 2019 +0700
+
+    Staff Training Course
+
+[33mcommit b9b15c9a4b51033ffb943a9983afd5f3e61eeb77[m
+Merge: a79da3cc 084de836
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 13 10:45:46 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff info education
+    
+    See merge request stsk/hrmis!30
+
+[33mcommit 084de836a9967f5bb7603d696f35c31688809b52[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 13 17:43:58 2019 +0700
+
+    [TASK] Staff info education
+
+[33mcommit a79da3ccc7db416585fcfec3b0c3cbd3954b4c16[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Thu Jun 13 15:14:59 2019 +0700
+
+    [TASK] Implement position
+
+[33mcommit 5b0a6ec2cb485e77ebfb5b8320f5e1a74115baf1[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Thu Jun 13 13:49:29 2019 +0700
+
+    [IMP] Update main menu
+
+[33mcommit 14653fb841d3394fbaa2ed337e6be24130e97a2c[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Thu Jun 13 09:38:28 2019 +0700
+
+    [TASK] Implement department
+
+[33mcommit 52604fadc0471f5a93f1ab55511b159fbfd71356[m
+Merge: ab1025f5 e1aeaf47
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 12 11:27:39 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff education info
+    
+    See merge request stsk/hrmis!29
+
+[33mcommit e1aeaf47ef142fcc4123cb9f5f8b41f86fd71a59[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 12 18:24:57 2019 +0700
+
+    [TASK] Staff education info
+
+[33mcommit ab1025f537f75cbf69e59102a1ddbddbbfa339ac[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Wed Jun 12 16:13:07 2019 +0700
+
+    [TASK] Implement branch
+
+[33mcommit be0692c2c67d00ea7794abefc9ec299882fbb388[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Wed Jun 12 10:49:06 2019 +0700
+
+    [TASK] Implement company
+
+[33mcommit fa392af45d4e549827116f2b144808d51cc6b25e[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Mon Jun 10 11:44:04 2019 +0700
+
+    [TASK] Implement company and branch
+
+[33mcommit 4dad206462eba96c52e549e3c3e3c5edc988c79d[m
+Merge: faf5781e ce107076
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 11 10:22:03 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff personal info
+    
+    See merge request stsk/hrmis!28
+
+[33mcommit ce107076288a8f39d1b4285ccb8e0f08ae8ad71f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 11 17:21:02 2019 +0700
+
+    [TASK] Staff personal info
+
+[33mcommit faf5781e16b5c2c580b4264309e204f4a6ba8128[m
+Merge: 4af02ef1 afb27920
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 10 09:52:12 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] UI
+    
+    See merge request stsk/hrmis!27
+
+[33mcommit afb279206b0accc4f889cc5b649437b095d25b3f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 10 16:47:10 2019 +0700
+
+    [TASK] UI
+
+[33mcommit 4af02ef1034156bec8d30750ef312e51ff459ea9[m
+Merge: bbd92c72 731c8e54
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 10 03:16:52 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Develop
+    
+    See merge request stsk/hrmis!26
+
+[33mcommit 731c8e54b1ab63bd908e5e419d2e1bfc30c33594[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Jun 10 10:14:44 2019 +0700
+
+    [TASK] Staff info => form education
+
+[33mcommit 1da6221be064920a33c70b9d48529d2dfd2ab1c4[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 6 12:06:14 2019 +0700
+
+    [TASK] Staff info: interface
+
+[33mcommit bbd92c72d1b700133ba937c4b56410aaf0567f88[m
+Merge: a7471451 1a4d8faf
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 6 02:06:45 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff info
+    
+    See merge request stsk/hrmis!25
+
+[33mcommit 1a4d8faf0315f066970d9190e666f773ba1c7eb0[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Jun 6 09:06:09 2019 +0700
+
+    [TASK] Staff info
+
+[33mcommit a74714515d569a4fac2700123b498163cf446359[m
+Merge: 5e09cec5 c9246212
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 5 08:01:34 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Personal info
+    
+    See merge request stsk/hrmis!24
+
+[33mcommit c9246212e70ec172a15e24a36b81dacc6a475317[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 5 15:00:51 2019 +0700
+
+    [TASK] Personal info
+
+[33mcommit 5e09cec5f05d8fade1559679d368d18d40b45b3f[m
+Merge: 9005abcb 0ab20395
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 5 05:01:05 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Personal info
+    
+    See merge request stsk/hrmis!23
+
+[33mcommit 0ab20395bdebe5eedda96924aab48f3efeee33ce[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 5 12:00:37 2019 +0700
+
+    [TASK] Personal info
+
+[33mcommit 9005abcbb32c32ae8430dfbd2df386f61ec7f4ba[m
+Merge: 29abffe5 2f617b4b
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 5 04:19:14 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Personal info
+    
+    See merge request stsk/hrmis!22
+
+[33mcommit 2f617b4b47578832b593736c69ffa8ec8c002da3[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 5 11:18:24 2019 +0700
+
+    [TASK] Personal info
+
+[33mcommit 29abffe5da2370cc46369cd1da62c7f0c6ffdb84[m
+Merge: e5a6876c 79c8e591
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 5 02:25:27 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Develop
+    
+    See merge request stsk/hrmis!21
+
+[33mcommit 79c8e5918d74a91b6688382f17fdb953d883193a[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed Jun 5 09:24:35 2019 +0700
+
+    [TASK] Personal info
+
+[33mcommit 29ea70264e460eefae8579b832b2b9dc5e09f94f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 4 17:04:38 2019 +0700
+
+    Revert "[IMP] Update app layout"
+    
+    This reverts commit 1f7634f6f12cea09b1a78e8b5c6ad6ae477a2355.
+
+[33mcommit e5a6876ce9692e5d597fb14e50d5e42ba74a98f5[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 4 17:48:48 2019 +0700
+
+    [BUG] Dublicate bootstrap
+
+[33mcommit 7078d342b100d20b798fe880f2a9a8d4bd162413[m
+Merge: 1f7634f6 d62478cb
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 4 10:02:46 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Staff personal info
+    
+    See merge request stsk/hrmis!20
+
+[33mcommit d62478cbd60280282381774b2c01595cb26edddc[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Jun 4 17:01:24 2019 +0700
+
+    [TASK] Staff personal info
+
+[33mcommit 1f7634f6f12cea09b1a78e8b5c6ad6ae477a2355[m
+Author: kakada <neangkakada@gmail.com>
+Date:   Tue Jun 4 10:38:12 2019 +0700
+
+    [IMP] Update app layout
+
+[33mcommit 342be0fb04bc393b04024c717cd7b92589732950[m
+Merge: b6431a24 cd3d7c3a
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sat Jun 1 14:40:13 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Insert personal info
+    
+    See merge request stsk/hrmis!19
+
+[33mcommit cd3d7c3a2c689927e716324e396d1ea277d277a0[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sat Jun 1 21:38:05 2019 +0700
+
+    [TASK] Insert personal info
+
+[33mcommit b6431a24655e72d458370d3f8ef83b47a3be7cf8[m
+Merge: 7d50b6f7 73c1e114
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sat Jun 1 14:33:58 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Insert personal info
+    
+    See merge request stsk/hrmis!18
+
+[33mcommit 73c1e114ab85ba8cb5d10583bf59f879000371e5[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Sat Jun 1 21:29:04 2019 +0700
+
+    [TASK] Insert personal info
+
+[33mcommit 7d50b6f70c0888c02b3a49ee15c83d3bac0c74b7[m
+Merge: 9bd4c22c 2444619f
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri May 31 04:10:15 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Create staff "Personal Info" data.
+    
+    See merge request stsk/hrmis!17
+
+[33mcommit 2444619fb3140554e41d69c6a448fe400a2cb658[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri May 31 11:05:37 2019 +0700
+
+    [TAST] Create staff "Personal Info" data.
+
+[33mcommit 9bd4c22c2870bc6c774b774502906703c5b68d8f[m
+Merge: 4cec78e2 17e25492
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed May 29 09:32:38 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Create staff "Personal Info" data.
+    
+    See merge request stsk/hrmis!16
+
+[33mcommit 17e2549201931886ccb262ad736aba42f11fd59d[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Wed May 29 16:31:21 2019 +0700
+
+    [TASK] Create staff "Personal Info" data.
+
+[33mcommit 4cec78e28aa588054b791f1db20efbaf9d5f90a9[m
+Merge: 7895177b fd342ccd
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon May 6 03:28:33 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [task] show image profile when user select file
+    
+    See merge request stsk/hrmis!15
+
+[33mcommit fd342ccdc9ed23bc6d7deffbae6e31443a62a12f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon May 6 10:27:27 2019 +0700
+
+    [task] show image profile when user select file
+
+[33mcommit 7895177bd1bd67731310304c65b71c1818f30fc6[m
+Merge: 988fd35f cebf86a6
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri May 3 08:03:57 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] Form create new staff (static)
+    
+    See merge request stsk/hrmis!14
+
+[33mcommit cebf86a612a6cc34caf29f024a1445e7fc6dfba4[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri May 3 15:00:40 2019 +0700
+
+    [TASK] Form create new staff (static)
+
+[33mcommit 988fd35f22662642822498ae12fa656c477404c3[m
+Merge: d1e5ce4e 14b74bc5
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu May 2 03:32:55 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [task] #7-List of staff profile with data filter (static only)
+    
+    See merge request stsk/hrmis!13
+
+[33mcommit 14b74bc576b27871456d9796c906607f16e9bc19[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu May 2 10:28:26 2019 +0700
+
+    [task] #7-List of staff profile with data filter (static only)
+
+[33mcommit d1e5ce4e02a6821dfe204038006b57fd9f2b6175[m
+Merge: d6723de5 0ba6b3eb
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 30 08:47:52 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [task] Add soft delete and updated_by, created_by
+    
+    See merge request stsk/hrmis!12
+
+[33mcommit 0ba6b3eb0c0eed364959e8df87fde7bea9bd2b47[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 30 15:44:13 2019 +0700
+
+    [task] Add soft delete and updated_by, created_by
+
+[33mcommit d6723de5966aab928f81d99ca5cc6b7651d07dc5[m
+Merge: 235ee69e 987121f9
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 30 08:00:52 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] improvement some point that miss
+    
+    See merge request stsk/hrmis!11
+
+[33mcommit 987121f9068b1590df6b5b98c92e6f7966dcd96c[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 30 15:00:00 2019 +0700
+
+    [TASK] improvement some point that miss
+
+[33mcommit 235ee69efb137042bdb6627c2d586133de38e917[m
+Merge: 32d07f8e 46feab2c
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 30 04:47:39 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [TASK] CRUD of permissions
+    
+    See merge request stsk/hrmis!10
+
+[33mcommit 46feab2c1799012fd79632bc722605427cfa5ca9[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 30 11:46:49 2019 +0700
+
+    [TASK] CRUD of permissions
+
+[33mcommit 32d07f8e8ec4a43451256324541cf9f560d7d081[m
+Merge: e18acbaa 8a02ad37
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 30 03:12:17 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [design interface user role] Add sweet alert to roles
+    
+    See merge request stsk/hrmis!9
+
+[33mcommit 8a02ad37836fa8fd7740b7dc666f4629ce5557e2[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 30 10:11:29 2019 +0700
+
+    [design interface user role] Add sweet alert to roles
+
+[33mcommit e18acbaaed94f5474037152a3851c0ef6aff5909[m
+Merge: 6473b576 bc6e8232
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 30 02:20:51 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [design interface user role] Add created_by, updated_by
+    
+    See merge request stsk/hrmis!8
+
+[33mcommit bc6e8232931566190e545c3ab7df47d0bdc3a9d5[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 30 09:20:04 2019 +0700
+
+    [design interface user role] Add created_by, updated_by
+
+[33mcommit 6473b5762768a29e4b17f52a4d4cc25d6122ad39[m
+Merge: eb58d72e d6741b3d
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Apr 29 10:38:30 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [Design interface permission role] User management
+    
+    See merge request stsk/hrmis!7
+
+[33mcommit d6741b3d6eb87ba0298c0c326e076daa693d8baf[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Apr 29 17:37:47 2019 +0700
+
+    [Design interface permission role] User management
+
+[33mcommit eb58d72e18ee08914063ffa6eb6afebc7b581869[m
+Merge: 426e4ece 3ba91212
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Apr 29 07:02:04 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [Design interface permission role] Roles
+    
+    See merge request stsk/hrmis!6
+
+[33mcommit 3ba9121249f9e7287ecc124218ebd23e5e3c2f9f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Apr 29 14:00:41 2019 +0700
+
+    [Design interface permission role]
+
+[33mcommit 426e4ecef4cfbcddce4280c687de9caa88531104[m
+Merge: b1fbc39a 854bdedd
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Apr 29 03:54:44 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Interface
+    
+    See merge request stsk/hrmis!5
+
+[33mcommit 854bdedd3db152f54c00b20c0bd97c82cabb3817[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Mon Apr 29 10:53:25 2019 +0700
+
+    Home page
+
+[33mcommit 8805e25dcb4b3eb3a03216045c127952ff715e8c[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Apr 26 17:08:57 2019 +0700
+
+    set up dashboard
+
+[33mcommit b1fbc39af81e9d710b028aa92e56dbdbb9599bfe[m
+Merge: 6680bce2 950c955f
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Apr 26 03:27:11 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    [config] User access right.
+    
+    See merge request stsk/hrmis!4
+
+[33mcommit 950c955f037d03d2d97bd401ba6328a4c58f707f[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Fri Apr 26 10:25:33 2019 +0700
+
+    [config] User access right
+
+[33mcommit 720472b8ee5ab2aa15749f8c51e888749a973062[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Apr 25 11:07:40 2019 +0700
+
+    Make defualt auth
+
+[33mcommit 6680bce2dcf6ba637d359b2d2a6dd159acd0f41c[m
+Merge: 25643d5b e7cc426b
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Apr 25 04:06:06 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Add defualt string
+    
+    See merge request stsk/hrmis!3
+
+[33mcommit e7cc426b712ec697d902fc61c82666a34d128efb[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Apr 25 11:05:37 2019 +0700
+
+    Add defualt string
+
+[33mcommit 25643d5b22e015fdc57f70ae8f665d513313ba84[m
+Merge: 6eb9681a 0a5dc951
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Apr 25 03:02:05 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    degrade to version 5.5
+    
+    See merge request stsk/hrmis!2
+
+[33mcommit 0a5dc951cd88ecc7ebee0c3fe2203992daf3843e[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Thu Apr 25 09:59:33 2019 +0700
+
+    degrate to version 5.5
+
+[33mcommit 6eb9681aae5737908f8ca86cd39e282a744d184c[m
+Merge: 2ed68ace 1adaca85
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 23 10:01:48 2019 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    permission role
+    
+    See merge request stsk/hrmis!1
+
+[33mcommit 1adaca8549db517bc03b0b6de8bfd664540093f5[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 23 17:00:52 2019 +0700
+
+    permission role
+
+[33mcommit 2ed68aceacbda0c19dfde62108360e874eef39d3[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 23 15:47:56 2019 +0700
+
+    Make defualt auth
+
+[33mcommit 29ee3ccaecba8041752f7a7639511e46f3d3869b[m
+Author: Khun Ratana <khunratana168.edu@gmail.com>
+Date:   Tue Apr 23 11:49:25 2019 +0700
+
+    Installation Laravel

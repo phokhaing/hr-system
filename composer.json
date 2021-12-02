@@ -1,0 +1,88 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0.0",
+        "ahmedsaoud31/laravel-permission-to-vuejs": "dev-master",
+        "dawson/youtube": "^6.0",
+        "fideloper/proxy": "~3.3",
+        "google/apiclient": "^2.7",
+        "intervention/image": "^2.5",
+        "jeroennoten/laravel-adminlte": "^1.25",
+        "laravel/framework": "5.5.*",
+        "laravel/tinker": "~1.0",
+        "laravelcollective/html": "~5.0",
+        "maatwebsite/excel": "^3.1",
+        "nwidart/laravel-modules": "^7.2",
+        "spatie/laravel-permission": "^2.37",
+        "staudenmeir/eloquent-json-relations": "^1.1",
+        "waavi/sanitizer": "~1.0",
+        "webpatser/laravel-uuid": "^3.0"
+    },
+    "require-dev": {
+        "filp/whoops": "~2.0",
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "~6.0",
+        "symfony/thanks": "^1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Modules\\": "Modules/"
+        },
+        "files" : [
+            "app/Helper/form.php",
+            "app/Helper/helpers.php",
+            "app/Helper/payroll_helper.php",
+            "app/Helper/date_time.php",
+            "app/Helper/Constants.php",
+            "app/Helper/HTTPStatus.php",
+            "app/Helper/Permissions.php",
+            "Modules/HRTraining/Helpers/utils.php",
+            "Modules/HRTraining/Helpers/training_constants.php",
+            "Modules/HRTraining/Helpers/training_constants_key.php",
+            "Modules/PensionFund/Utility/constants.php",
+            "Modules/Payroll/Utilities/constants.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+            ]
+        },
+        "google/apiclient-services": [
+            "YouTube"
+        ]
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ],
+        "post-update-cmd": "Google_Task_Composer::cleanup"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
