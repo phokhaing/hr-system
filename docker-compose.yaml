@@ -2,7 +2,7 @@ version: "3.8"
 services:
     app:
         build: .
-        image: hr_system_app
+        image: phokhaing/hr_system_app:TAG_VERSION
         container_name: app
         ports:
             - "80:80" # "local_port:default_image_port"
