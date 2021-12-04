@@ -35,7 +35,8 @@ RUN service apache2 restart
 RUN cd /var/www/html && composer install
 
 WORKDIR /var/www/html
-CMD php artisan serve --host=0.0.0.0 --port=80 && php artisan migrate
+CMD php artisan serve --host=0.0.0.0 --port=80 
+# CMD php artisan migrate
 #RUN chown -R 777 www-data:www-data /var/www/html/
 
 # install composer
