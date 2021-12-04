@@ -1,8 +1,5 @@
 FROM php:7.4-apache
 
-# change the owner and group owner of project dir & mount dir
-RUN chown -R ./db_data
-
 COPY . /var/www/html/
 COPY .htaccess /var/www/html/.htaccess
 # RUN ["cp",  "/var/www/html/site/htaccess", "/var/www/html/site/.htaccess"]
