@@ -35,10 +35,10 @@ RUN chown -R www-data:www-data /var/www/html \
 
 #RUN a2enmod rewrite
 RUN service apache2 restart
-RUN cd /var/www/html && composer install
+# RUN cd /var/www/html && composer install
 
-WORKDIR /var/www/html
-CMD php artisan serve --host=0.0.0.0 --port=80 
+# WORKDIR /var/www/html
+# CMD php artisan serve --host=0.0.0.0 --port=80 
 # CMD php artisan migrate
 #RUN chown -R 777 www-data:www-data /var/www/html/
 
@@ -48,6 +48,7 @@ CMD php artisan serve --host=0.0.0.0 --port=80
 # allow readable, writable and executable by all users
 #RUN chmod 777 /var/www/html/ 
 EXPOSE 80
+EXPOSE 8000
 # CMD ["apache2-foreground"]
 # - chmod -R 755 wp-content
 # - chown -R apache:apache wp-content
