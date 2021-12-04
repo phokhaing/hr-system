@@ -1,5 +1,8 @@
 FROM php:7.4-apache
 
+# To give all permissions to project
+# RUN chmod -R 777 .
+
 COPY . /var/www/html/
 COPY .htaccess /var/www/html/.htaccess
 # RUN ["cp",  "/var/www/html/site/htaccess", "/var/www/html/site/.htaccess"]
